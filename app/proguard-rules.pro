@@ -268,10 +268,10 @@
 -keep class com.gyf.cactus.entity.* {*;}
 
 # 排除实体类
--keep class com.idormy.sms.forwarder.core.http.entity.** {*;}
--keep class com.idormy.sms.forwarder.database.entity.** {*;}
--keep class com.idormy.sms.forwarder.entity.** {*;}
--keep class com.idormy.sms.forwarder.server.model.** {*;}
+-keep class top.m7641.sms.forwarder.core.http.entity.** {*;}
+-keep class top.m7641.sms.forwarder.database.entity.** {*;}
+-keep class top.m7641.sms.forwarder.entity.** {*;}
+-keep class top.m7641.sms.forwarder.server.model.** {*;}
 
 # javax.mail
 -dontwarn com.sun.**
@@ -281,7 +281,7 @@
 -keep class javax.mail.** { *;}
 -keep class javax.activation.** { *;}
 -keep class com.smailnet.emailkit.** { *;}
--keep class com.idormy.sms.forwarder.utils.mail.** {*;}
+-keep class top.m7641.sms.forwarder.utils.mail.** {*;}
 -keep class com.gitee.xuankaicat.kmnkt.** {*;}
 -keep class org.eclipse.paho.client.** {*;}
 
