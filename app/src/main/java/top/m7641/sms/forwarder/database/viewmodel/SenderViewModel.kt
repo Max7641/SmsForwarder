@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.database.viewmodel
+package top.m7641.sms.forwarder.database.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -6,9 +6,9 @@ import androidx.paging.Pager
 import androidx.paging.PagingConfig
 import androidx.paging.PagingData
 import androidx.paging.cachedIn
-import com.idormy.sms.forwarder.database.dao.SenderDao
-import com.idormy.sms.forwarder.database.entity.Sender
-import com.idormy.sms.forwarder.database.ext.ioThread
+import top.m7641.sms.forwarder.database.dao.SenderDao
+import top.m7641.sms.forwarder.database.entity.Sender
+import top.m7641.sms.forwarder.database.ext.ioThread
 import kotlinx.coroutines.flow.Flow
 
 class SenderViewModel(private val dao: SenderDao) : ViewModel() {

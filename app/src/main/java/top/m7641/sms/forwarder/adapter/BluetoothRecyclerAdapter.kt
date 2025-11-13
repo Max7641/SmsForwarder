@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.adapter
+package top.m7641.sms.forwarder.adapter
 
 import android.annotation.SuppressLint
 import android.bluetooth.BluetoothClass
@@ -9,7 +9,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.idormy.sms.forwarder.R
+import top.m7641.sms.forwarder.R
 
 class BluetoothRecyclerAdapter(
     private val itemList: List<BluetoothDevice>,

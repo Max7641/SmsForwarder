@@ -1,10 +1,10 @@
-package com.idormy.sms.forwarder.receiver
+package top.m7641.sms.forwarder.receiver
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-import com.idormy.sms.forwarder.activity.SplashActivity
-import com.idormy.sms.forwarder.utils.Log
+import top.m7641.sms.forwarder.activity.SplashActivity
+import top.m7641.sms.forwarder.utils.Log
 
 @Suppress("PrivatePropertyName")
 class BootCompletedReceiver : BroadcastReceiver() {

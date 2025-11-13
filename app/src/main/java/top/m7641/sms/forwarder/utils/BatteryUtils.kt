@@ -1,9 +1,9 @@
-package com.idormy.sms.forwarder.utils
+package top.m7641.sms.forwarder.utils
 
 import android.content.Intent
 import android.os.BatteryManager
-import com.idormy.sms.forwarder.R
-import com.idormy.sms.forwarder.entity.BatteryInfo
+import top.m7641.sms.forwarder.R
+import top.m7641.sms.forwarder.entity.BatteryInfo
 import com.xuexiang.xutil.resource.ResUtils.getString
 
 @Suppress("MemberVisibilityCanBePrivate")

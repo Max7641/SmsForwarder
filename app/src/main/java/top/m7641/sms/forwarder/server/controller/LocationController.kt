@@ -1,11 +1,11 @@
-package com.idormy.sms.forwarder.server.controller
+package top.m7641.sms.forwarder.server.controller
 
 import android.annotation.SuppressLint
-import com.idormy.sms.forwarder.entity.LocationInfo
-import com.idormy.sms.forwarder.server.model.BaseRequest
-import com.idormy.sms.forwarder.server.model.EmptyData
-import com.idormy.sms.forwarder.utils.HttpServerUtils
-import com.idormy.sms.forwarder.utils.Log
+import top.m7641.sms.forwarder.entity.LocationInfo
+import top.m7641.sms.forwarder.server.model.BaseRequest
+import top.m7641.sms.forwarder.server.model.EmptyData
+import top.m7641.sms.forwarder.utils.HttpServerUtils
+import top.m7641.sms.forwarder.utils.Log
 import com.yanzhenjie.andserver.annotation.CrossOrigin
 import com.yanzhenjie.andserver.annotation.PostMapping
 import com.yanzhenjie.andserver.annotation.RequestBody

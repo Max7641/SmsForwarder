@@ -1,6 +1,6 @@
-package com.idormy.sms.forwarder.entity.action
+package top.m7641.sms.forwarder.entity.action
 
-import com.idormy.sms.forwarder.utils.HttpServerUtils
+import top.m7641.sms.forwarder.utils.HttpServerUtils
 import java.io.Serializable
 
 data class HttpServerSetting(

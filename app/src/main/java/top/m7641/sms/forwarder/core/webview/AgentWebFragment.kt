@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.core.webview
+package top.m7641.sms.forwarder.core.webview
 
 import android.content.ClipData
 import android.content.ClipboardManager
@@ -29,10 +29,10 @@ import android.widget.TextView
 import androidx.annotation.RequiresApi
 import androidx.appcompat.widget.PopupMenu
 import androidx.fragment.app.Fragment
-import com.idormy.sms.forwarder.App
-import com.idormy.sms.forwarder.R
-import com.idormy.sms.forwarder.utils.Log
-import com.idormy.sms.forwarder.utils.XToastUtils
+import top.m7641.sms.forwarder.App
+import top.m7641.sms.forwarder.R
+import top.m7641.sms.forwarder.utils.Log
+import top.m7641.sms.forwarder.utils.XToastUtils
 import com.just.agentweb.action.PermissionInterceptor
 import com.just.agentweb.core.AgentWeb
 import com.just.agentweb.core.client.MiddlewareWebChromeBase

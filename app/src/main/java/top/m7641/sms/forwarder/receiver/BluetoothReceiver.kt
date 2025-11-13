@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.receiver
+package top.m7641.sms.forwarder.receiver
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -14,17 +14,17 @@ import androidx.work.OneTimeWorkRequestBuilder
 import androidx.work.WorkManager
 import androidx.work.workDataOf
 import com.google.gson.Gson
-import com.idormy.sms.forwarder.App
-import com.idormy.sms.forwarder.service.BluetoothScanService
-import com.idormy.sms.forwarder.utils.ACTION_RESTART
-import com.idormy.sms.forwarder.utils.ACTION_START
-import com.idormy.sms.forwarder.utils.ACTION_STOP
-import com.idormy.sms.forwarder.utils.Log
-import com.idormy.sms.forwarder.utils.SettingUtils
-import com.idormy.sms.forwarder.utils.TASK_CONDITION_BLUETOOTH
-import com.idormy.sms.forwarder.utils.TaskWorker
-import com.idormy.sms.forwarder.utils.task.TaskUtils
-import com.idormy.sms.forwarder.workers.BluetoothWorker
+import top.m7641.sms.forwarder.App
+import top.m7641.sms.forwarder.service.BluetoothScanService
+import top.m7641.sms.forwarder.utils.ACTION_RESTART
+import top.m7641.sms.forwarder.utils.ACTION_START
+import top.m7641.sms.forwarder.utils.ACTION_STOP
+import top.m7641.sms.forwarder.utils.Log
+import top.m7641.sms.forwarder.utils.SettingUtils
+import top.m7641.sms.forwarder.utils.TASK_CONDITION_BLUETOOTH
+import top.m7641.sms.forwarder.utils.TaskWorker
+import top.m7641.sms.forwarder.utils.task.TaskUtils
+import top.m7641.sms.forwarder.workers.BluetoothWorker
 
 @Suppress("PrivatePropertyName", "DEPRECATION")
 @SuppressLint("MissingPermission")

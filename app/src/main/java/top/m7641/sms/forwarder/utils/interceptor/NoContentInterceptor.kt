@@ -1,13 +1,13 @@
-package com.idormy.sms.forwarder.utils.interceptor
+package top.m7641.sms.forwarder.utils.interceptor
 
 import androidx.work.OneTimeWorkRequestBuilder
 import androidx.work.WorkManager
 import androidx.work.workDataOf
 import com.google.gson.Gson
-import com.idormy.sms.forwarder.entity.result.SendResponse
-import com.idormy.sms.forwarder.utils.Log
-import com.idormy.sms.forwarder.utils.Worker
-import com.idormy.sms.forwarder.workers.UpdateLogsWorker
+import top.m7641.sms.forwarder.entity.result.SendResponse
+import top.m7641.sms.forwarder.utils.Log
+import top.m7641.sms.forwarder.utils.Worker
+import top.m7641.sms.forwarder.workers.UpdateLogsWorker
 import com.xuexiang.xutil.XUtil
 import okhttp3.Interceptor
 import okhttp3.Response

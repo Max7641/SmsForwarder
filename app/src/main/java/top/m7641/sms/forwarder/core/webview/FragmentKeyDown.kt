@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.core.webview
+package top.m7641.sms.forwarder.core.webview
 
 import android.view.KeyEvent
 

@@ -1,11 +1,11 @@
-package com.idormy.sms.forwarder.activity
+package top.m7641.sms.forwarder.activity
 
 import android.annotation.SuppressLint
 import android.view.KeyEvent
-import com.idormy.sms.forwarder.R
-import com.idormy.sms.forwarder.utils.CommonUtils.Companion.showPrivacyDialog
-import com.idormy.sms.forwarder.utils.SettingUtils
-import com.idormy.sms.forwarder.utils.SettingUtils.Companion.isAgreePrivacy
+import top.m7641.sms.forwarder.R
+import top.m7641.sms.forwarder.utils.CommonUtils.Companion.showPrivacyDialog
+import top.m7641.sms.forwarder.utils.SettingUtils
+import top.m7641.sms.forwarder.utils.SettingUtils.Companion.isAgreePrivacy
 import com.xuexiang.xui.utils.KeyboardUtils
 import com.xuexiang.xui.widget.activity.BaseSplashActivity
 import com.xuexiang.xui.widget.dialog.materialdialog.DialogAction

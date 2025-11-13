@@ -1,9 +1,9 @@
-package com.idormy.sms.forwarder.database.viewmodel
+package top.m7641.sms.forwarder.database.viewmodel
 
 import android.content.Context
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.idormy.sms.forwarder.database.AppDatabase
+import top.m7641.sms.forwarder.database.AppDatabase
 
 class BaseViewModelFactory(private val context: Context?) : ViewModelProvider.Factory {
 

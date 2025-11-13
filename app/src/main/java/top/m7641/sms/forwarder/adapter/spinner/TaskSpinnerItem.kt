@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.adapter.spinner
+package top.m7641.sms.forwarder.adapter.spinner
 
 import android.graphics.drawable.Drawable
 

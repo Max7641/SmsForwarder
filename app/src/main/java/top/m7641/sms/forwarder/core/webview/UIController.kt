@@ -1,8 +1,8 @@
-package com.idormy.sms.forwarder.core.webview
+package top.m7641.sms.forwarder.core.webview
 
 import android.app.Activity
 import android.os.Handler
-import com.idormy.sms.forwarder.utils.Log
+import top.m7641.sms.forwarder.utils.Log
 import android.webkit.WebView
 import com.just.agentweb.core.web.AgentWebUIControllerImplBase
 import java.lang.ref.WeakReference

@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.fragment.client
+package top.m7641.sms.forwarder.fragment.client
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
@@ -6,12 +6,12 @@ import android.view.View
 import android.view.ViewGroup
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import com.idormy.sms.forwarder.R
-import com.idormy.sms.forwarder.core.BaseFragment
-import com.idormy.sms.forwarder.databinding.FragmentClientSmsSendBinding
-import com.idormy.sms.forwarder.server.model.BaseResponse
-import com.idormy.sms.forwarder.server.model.ConfigData
-import com.idormy.sms.forwarder.utils.*
+import top.m7641.sms.forwarder.R
+import top.m7641.sms.forwarder.core.BaseFragment
+import top.m7641.sms.forwarder.databinding.FragmentClientSmsSendBinding
+import top.m7641.sms.forwarder.server.model.BaseResponse
+import top.m7641.sms.forwarder.server.model.ConfigData
+import top.m7641.sms.forwarder.utils.*
 import com.jeremyliao.liveeventbus.LiveEventBus
 import com.xuexiang.xaop.annotation.SingleClick
 import com.xuexiang.xhttp2.XHttp

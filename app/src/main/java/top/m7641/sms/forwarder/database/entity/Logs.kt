@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.database.entity
+package top.m7641.sms.forwarder.database.entity
 
 import android.os.Parcelable
 import androidx.room.ColumnInfo

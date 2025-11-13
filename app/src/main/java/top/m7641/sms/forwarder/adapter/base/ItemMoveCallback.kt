@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.adapter.base
+package top.m7641.sms.forwarder.adapter.base
 
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.RecyclerView

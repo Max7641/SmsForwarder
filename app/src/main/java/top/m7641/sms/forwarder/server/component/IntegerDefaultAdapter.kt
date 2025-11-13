@@ -1,9 +1,9 @@
-package com.idormy.sms.forwarder.server.component
+package top.m7641.sms.forwarder.server.component
 
 import com.google.gson.TypeAdapter
 import com.google.gson.stream.JsonReader
 import com.google.gson.stream.JsonWriter
-import com.idormy.sms.forwarder.utils.Log
+import top.m7641.sms.forwarder.utils.Log
 import java.io.IOException
 
 class IntegerDefaultAdapter : TypeAdapter<Int>() {

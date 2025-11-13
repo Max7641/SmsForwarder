@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.database
+package top.m7641.sms.forwarder.database
 
 import android.content.Context
 import androidx.room.Database
@@ -7,23 +7,23 @@ import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
 import androidx.room.migration.Migration
 import androidx.sqlite.db.SupportSQLiteDatabase
-import com.idormy.sms.forwarder.database.dao.FrpcDao
-import com.idormy.sms.forwarder.database.dao.LogsDao
-import com.idormy.sms.forwarder.database.dao.MsgDao
-import com.idormy.sms.forwarder.database.dao.RuleDao
-import com.idormy.sms.forwarder.database.dao.SenderDao
-import com.idormy.sms.forwarder.database.dao.TaskDao
-import com.idormy.sms.forwarder.database.entity.Frpc
-import com.idormy.sms.forwarder.database.entity.Logs
-import com.idormy.sms.forwarder.database.entity.LogsDetail
-import com.idormy.sms.forwarder.database.entity.Msg
-import com.idormy.sms.forwarder.database.entity.Rule
-import com.idormy.sms.forwarder.database.entity.Sender
-import com.idormy.sms.forwarder.database.entity.Task
-import com.idormy.sms.forwarder.database.ext.ConvertersDate
-import com.idormy.sms.forwarder.utils.DATABASE_NAME
-import com.idormy.sms.forwarder.utils.SettingUtils
-import com.idormy.sms.forwarder.utils.TAG_LIST
+import top.m7641.sms.forwarder.database.dao.FrpcDao
+import top.m7641.sms.forwarder.database.dao.LogsDao
+import top.m7641.sms.forwarder.database.dao.MsgDao
+import top.m7641.sms.forwarder.database.dao.RuleDao
+import top.m7641.sms.forwarder.database.dao.SenderDao
+import top.m7641.sms.forwarder.database.dao.TaskDao
+import top.m7641.sms.forwarder.database.entity.Frpc
+import top.m7641.sms.forwarder.database.entity.Logs
+import top.m7641.sms.forwarder.database.entity.LogsDetail
+import top.m7641.sms.forwarder.database.entity.Msg
+import top.m7641.sms.forwarder.database.entity.Rule
+import top.m7641.sms.forwarder.database.entity.Sender
+import top.m7641.sms.forwarder.database.entity.Task
+import top.m7641.sms.forwarder.database.ext.ConvertersDate
+import top.m7641.sms.forwarder.utils.DATABASE_NAME
+import top.m7641.sms.forwarder.utils.SettingUtils
+import top.m7641.sms.forwarder.utils.TAG_LIST
 
 @Database(
     entities = [Frpc::class, Msg::class, Logs::class, Rule::class, Sender::class, Task::class],

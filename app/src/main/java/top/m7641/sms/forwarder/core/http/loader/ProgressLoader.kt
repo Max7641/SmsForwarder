@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.core.http.loader
+package top.m7641.sms.forwarder.core.http.loader
 
 import android.content.Context
 import com.xuexiang.xhttp2.subsciber.impl.IProgressLoader

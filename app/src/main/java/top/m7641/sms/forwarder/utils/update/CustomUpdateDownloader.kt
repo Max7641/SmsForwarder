@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.utils.update
+package top.m7641.sms.forwarder.utils.update
 
 import com.xuexiang.xupdate.entity.UpdateEntity
 import com.xuexiang.xupdate.proxy.impl.DefaultUpdateDownloader

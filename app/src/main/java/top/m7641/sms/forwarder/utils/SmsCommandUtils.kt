@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.utils
+package top.m7641.sms.forwarder.utils
 
 import android.Manifest
 import android.content.Context
@@ -7,10 +7,10 @@ import android.content.pm.PackageManager
 import android.net.wifi.WifiManager
 import androidx.core.app.ActivityCompat
 import com.google.gson.Gson
-import com.idormy.sms.forwarder.App
-import com.idormy.sms.forwarder.core.Core
-import com.idormy.sms.forwarder.server.model.SmsSendData
-import com.idormy.sms.forwarder.service.HttpServerService
+import top.m7641.sms.forwarder.App
+import top.m7641.sms.forwarder.core.Core
+import top.m7641.sms.forwarder.server.model.SmsSendData
+import top.m7641.sms.forwarder.service.HttpServerService
 import com.xuexiang.xrouter.utils.TextUtils
 import com.xuexiang.xutil.XUtil
 import com.xuexiang.xutil.system.DeviceUtils

@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.fragment
+package top.m7641.sms.forwarder.fragment
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
@@ -10,52 +10,52 @@ import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.RecyclerView.RecycledViewPool
 import com.alibaba.android.vlayout.VirtualLayoutManager
 import com.google.android.material.bottomsheet.BottomSheetDialog
-import com.idormy.sms.forwarder.R
-import com.idormy.sms.forwarder.activity.MainActivity
-import com.idormy.sms.forwarder.adapter.SenderPagingAdapter
-import com.idormy.sms.forwarder.adapter.WidgetItemAdapter
-import com.idormy.sms.forwarder.core.BaseFragment
-import com.idormy.sms.forwarder.database.entity.Sender
-import com.idormy.sms.forwarder.database.viewmodel.BaseViewModelFactory
-import com.idormy.sms.forwarder.database.viewmodel.SenderViewModel
-import com.idormy.sms.forwarder.databinding.FragmentSendersBinding
-import com.idormy.sms.forwarder.fragment.senders.BarkFragment
-import com.idormy.sms.forwarder.fragment.senders.DingtalkGroupRobotFragment
-import com.idormy.sms.forwarder.fragment.senders.DingtalkInnerRobotFragment
-import com.idormy.sms.forwarder.fragment.senders.EmailFragment
-import com.idormy.sms.forwarder.fragment.senders.FeishuAppFragment
-import com.idormy.sms.forwarder.fragment.senders.FeishuFragment
-import com.idormy.sms.forwarder.fragment.senders.GotifyFragment
-import com.idormy.sms.forwarder.fragment.senders.PushplusFragment
-import com.idormy.sms.forwarder.fragment.senders.ServerchanFragment
-import com.idormy.sms.forwarder.fragment.senders.SmsFragment
-import com.idormy.sms.forwarder.fragment.senders.SocketFragment
-import com.idormy.sms.forwarder.fragment.senders.TelegramFragment
-import com.idormy.sms.forwarder.fragment.senders.UrlSchemeFragment
-import com.idormy.sms.forwarder.fragment.senders.WebhookFragment
-import com.idormy.sms.forwarder.fragment.senders.WeworkAgentFragment
-import com.idormy.sms.forwarder.fragment.senders.WeworkRobotFragment
-import com.idormy.sms.forwarder.utils.KEY_SENDER_CLONE
-import com.idormy.sms.forwarder.utils.KEY_SENDER_ID
-import com.idormy.sms.forwarder.utils.KEY_SENDER_TYPE
-import com.idormy.sms.forwarder.utils.Log
-import com.idormy.sms.forwarder.utils.TYPE_BARK
-import com.idormy.sms.forwarder.utils.TYPE_DINGTALK_GROUP_ROBOT
-import com.idormy.sms.forwarder.utils.TYPE_DINGTALK_INNER_ROBOT
-import com.idormy.sms.forwarder.utils.TYPE_EMAIL
-import com.idormy.sms.forwarder.utils.TYPE_FEISHU
-import com.idormy.sms.forwarder.utils.TYPE_FEISHU_APP
-import com.idormy.sms.forwarder.utils.TYPE_GOTIFY
-import com.idormy.sms.forwarder.utils.TYPE_PUSHPLUS
-import com.idormy.sms.forwarder.utils.TYPE_SERVERCHAN
-import com.idormy.sms.forwarder.utils.TYPE_SMS
-import com.idormy.sms.forwarder.utils.TYPE_SOCKET
-import com.idormy.sms.forwarder.utils.TYPE_TELEGRAM
-import com.idormy.sms.forwarder.utils.TYPE_URL_SCHEME
-import com.idormy.sms.forwarder.utils.TYPE_WEBHOOK
-import com.idormy.sms.forwarder.utils.TYPE_WEWORK_AGENT
-import com.idormy.sms.forwarder.utils.TYPE_WEWORK_ROBOT
-import com.idormy.sms.forwarder.utils.XToastUtils
+import top.m7641.sms.forwarder.R
+import top.m7641.sms.forwarder.activity.MainActivity
+import top.m7641.sms.forwarder.adapter.SenderPagingAdapter
+import top.m7641.sms.forwarder.adapter.WidgetItemAdapter
+import top.m7641.sms.forwarder.core.BaseFragment
+import top.m7641.sms.forwarder.database.entity.Sender
+import top.m7641.sms.forwarder.database.viewmodel.BaseViewModelFactory
+import top.m7641.sms.forwarder.database.viewmodel.SenderViewModel
+import top.m7641.sms.forwarder.databinding.FragmentSendersBinding
+import top.m7641.sms.forwarder.fragment.senders.BarkFragment
+import top.m7641.sms.forwarder.fragment.senders.DingtalkGroupRobotFragment
+import top.m7641.sms.forwarder.fragment.senders.DingtalkInnerRobotFragment
+import top.m7641.sms.forwarder.fragment.senders.EmailFragment
+import top.m7641.sms.forwarder.fragment.senders.FeishuAppFragment
+import top.m7641.sms.forwarder.fragment.senders.FeishuFragment
+import top.m7641.sms.forwarder.fragment.senders.GotifyFragment
+import top.m7641.sms.forwarder.fragment.senders.PushplusFragment
+import top.m7641.sms.forwarder.fragment.senders.ServerchanFragment
+import top.m7641.sms.forwarder.fragment.senders.SmsFragment
+import top.m7641.sms.forwarder.fragment.senders.SocketFragment
+import top.m7641.sms.forwarder.fragment.senders.TelegramFragment
+import top.m7641.sms.forwarder.fragment.senders.UrlSchemeFragment
+import top.m7641.sms.forwarder.fragment.senders.WebhookFragment
+import top.m7641.sms.forwarder.fragment.senders.WeworkAgentFragment
+import top.m7641.sms.forwarder.fragment.senders.WeworkRobotFragment
+import top.m7641.sms.forwarder.utils.KEY_SENDER_CLONE
+import top.m7641.sms.forwarder.utils.KEY_SENDER_ID
+import top.m7641.sms.forwarder.utils.KEY_SENDER_TYPE
+import top.m7641.sms.forwarder.utils.Log
+import top.m7641.sms.forwarder.utils.TYPE_BARK
+import top.m7641.sms.forwarder.utils.TYPE_DINGTALK_GROUP_ROBOT
+import top.m7641.sms.forwarder.utils.TYPE_DINGTALK_INNER_ROBOT
+import top.m7641.sms.forwarder.utils.TYPE_EMAIL
+import top.m7641.sms.forwarder.utils.TYPE_FEISHU
+import top.m7641.sms.forwarder.utils.TYPE_FEISHU_APP
+import top.m7641.sms.forwarder.utils.TYPE_GOTIFY
+import top.m7641.sms.forwarder.utils.TYPE_PUSHPLUS
+import top.m7641.sms.forwarder.utils.TYPE_SERVERCHAN
+import top.m7641.sms.forwarder.utils.TYPE_SMS
+import top.m7641.sms.forwarder.utils.TYPE_SOCKET
+import top.m7641.sms.forwarder.utils.TYPE_TELEGRAM
+import top.m7641.sms.forwarder.utils.TYPE_URL_SCHEME
+import top.m7641.sms.forwarder.utils.TYPE_WEBHOOK
+import top.m7641.sms.forwarder.utils.TYPE_WEWORK_AGENT
+import top.m7641.sms.forwarder.utils.TYPE_WEWORK_ROBOT
+import top.m7641.sms.forwarder.utils.XToastUtils
 import com.scwang.smartrefresh.layout.api.RefreshLayout
 import com.xuexiang.xaop.annotation.SingleClick
 import com.xuexiang.xpage.annotation.Page
@@ -90,112 +90,112 @@ class SendersFragment : BaseFragment<FragmentSendersBinding?>(),
     private var SENDER_FRAGMENT_LIST = listOf(
         PageInfo(
             getString(R.string.dingtalk_robot),
-            "com.idormy.sms.forwarder.fragment.senders.DingtalkGroupRobotFragment",
+            "top.m7641.sms.forwarder.fragment.senders.DingtalkGroupRobotFragment",
             "{\"\":\"\"}",
             CoreAnim.slide,
             R.drawable.icon_dingtalk
         ),
         PageInfo(
             getString(R.string.email),
-            "com.idormy.sms.forwarder.fragment.senders.EmailFragment",
+            "top.m7641.sms.forwarder.fragment.senders.EmailFragment",
             "{\"\":\"\"}",
             CoreAnim.slide,
             R.drawable.icon_email
         ),
         PageInfo(
             getString(R.string.bark),
-            "com.idormy.sms.forwarder.fragment.senders.BarkFragment",
+            "top.m7641.sms.forwarder.fragment.senders.BarkFragment",
             "{\"\":\"\"}",
             CoreAnim.slide,
             R.drawable.icon_bark
         ),
         PageInfo(
             getString(R.string.webhook),
-            "com.idormy.sms.forwarder.fragment.senders.WebhookFragment",
+            "top.m7641.sms.forwarder.fragment.senders.WebhookFragment",
             "{\"\":\"\"}",
             CoreAnim.slide,
             R.drawable.icon_webhook
         ),
         PageInfo(
             getString(R.string.wework_robot),
-            "com.idormy.sms.forwarder.fragment.senders.WeworkRobotFragment",
+            "top.m7641.sms.forwarder.fragment.senders.WeworkRobotFragment",
             "{\"\":\"\"}",
             CoreAnim.slide,
             R.drawable.icon_wework_robot
         ),
         PageInfo(
             getString(R.string.wework_agent),
-            "com.idormy.sms.forwarder.fragment.senders.WeworkAgentFragment",
+            "top.m7641.sms.forwarder.fragment.senders.WeworkAgentFragment",
             "{\"\":\"\"}",
             CoreAnim.slide,
             R.drawable.icon_wework_agent
         ),
         PageInfo(
             getString(R.string.server_chan),
-            "com.idormy.sms.forwarder.fragment.senders.ServerchanFragment",
+            "top.m7641.sms.forwarder.fragment.senders.ServerchanFragment",
             "{\"\":\"\"}",
             CoreAnim.slide,
             R.drawable.icon_serverchan
         ),
         PageInfo(
             getString(R.string.telegram),
-            "com.idormy.sms.forwarder.fragment.senders.TelegramFragment",
+            "top.m7641.sms.forwarder.fragment.senders.TelegramFragment",
             "{\"\":\"\"}",
             CoreAnim.slide,
             R.drawable.icon_telegram
         ),
         PageInfo(
             getString(R.string.sms_menu),
-            "com.idormy.sms.forwarder.fragment.senders.SmsFragment",
+            "top.m7641.sms.forwarder.fragment.senders.SmsFragment",
             "{\"\":\"\"}",
             CoreAnim.slide,
             R.drawable.icon_sms
         ),
         PageInfo(
             getString(R.string.feishu),
-            "com.idormy.sms.forwarder.fragment.senders.FeishuFragment",
+            "top.m7641.sms.forwarder.fragment.senders.FeishuFragment",
             "{\"\":\"\"}",
             CoreAnim.slide,
             R.drawable.icon_feishu
         ),
         PageInfo(
             getString(R.string.pushplus),
-            "com.idormy.sms.forwarder.fragment.senders.PushplusFragment",
+            "top.m7641.sms.forwarder.fragment.senders.PushplusFragment",
             "{\"\":\"\"}",
             CoreAnim.slide,
             R.drawable.icon_pushplus
         ),
         PageInfo(
             getString(R.string.gotify),
-            "com.idormy.sms.forwarder.fragment.senders.GotifyFragment",
+            "top.m7641.sms.forwarder.fragment.senders.GotifyFragment",
             "{\"\":\"\"}",
             CoreAnim.slide,
             R.drawable.icon_gotify
         ),
         PageInfo(
             getString(R.string.dingtalk_inner_robot),
-            "com.idormy.sms.forwarder.fragment.senders.DingtalkInnerRobotFragment",
+            "top.m7641.sms.forwarder.fragment.senders.DingtalkInnerRobotFragment",
             "{\"\":\"\"}",
             CoreAnim.slide,
             R.drawable.icon_dingtalk_inner
         ),
         PageInfo(
             getString(R.string.feishu_app),
-            "com.idormy.sms.forwarder.fragment.senders.FeishuAppFragment",
+            "top.m7641.sms.forwarder.fragment.senders.FeishuAppFragment",
             "{\"\":\"\"}",
             CoreAnim.slide,
             R.drawable.icon_feishu_app
         ),
         PageInfo(
             getString(R.string.url_scheme),
-            "com.idormy.sms.forwarder.fragment.senders.UrlSchemeFragment",
+            "top.m7641.sms.forwarder.fragment.senders.UrlSchemeFragment",
             "{\"\":\"\"}",
             CoreAnim.slide,
             R.drawable.icon_url_scheme
         ),
         PageInfo(
             getString(R.string.socket),
-            "com.idormy.sms.forwarder.fragment.senders.SocketFragment",
+            "top.m7641.sms.forwarder.fragment.senders.SocketFragment",
             "{\"\":\"\"}",
             CoreAnim.slide,
             R.drawable.icon_socket

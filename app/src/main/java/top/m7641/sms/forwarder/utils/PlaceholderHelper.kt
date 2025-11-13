@@ -1,11 +1,11 @@
-package com.idormy.sms.forwarder.utils
+package top.m7641.sms.forwarder.utils
 
 import android.graphics.Color
 import android.graphics.drawable.GradientDrawable
 import android.view.View
 import android.view.animation.Animation
 import android.view.animation.ScaleAnimation
-import com.idormy.sms.forwarder.R
+import top.m7641.sms.forwarder.R
 import me.samlss.broccoli.PlaceholderParameter
 
 /**

@@ -1,8 +1,8 @@
-package com.idormy.sms.forwarder.database.ext
+package top.m7641.sms.forwarder.database.ext
 
 import androidx.room.TypeConverter
-import com.idormy.sms.forwarder.core.Core
-import com.idormy.sms.forwarder.database.entity.Sender
+import top.m7641.sms.forwarder.core.Core
+import top.m7641.sms.forwarder.database.entity.Sender
 
 class ConvertersSenderList {
 

@@ -1,8 +1,8 @@
-package com.idormy.sms.forwarder.server.controller
+package top.m7641.sms.forwarder.server.controller
 
-import com.idormy.sms.forwarder.utils.Log
-import com.idormy.sms.forwarder.server.model.BaseRequest
-import com.idormy.sms.forwarder.server.model.WolData
+import top.m7641.sms.forwarder.utils.Log
+import top.m7641.sms.forwarder.server.model.BaseRequest
+import top.m7641.sms.forwarder.server.model.WolData
 import com.xuexiang.xrouter.utils.TextUtils
 import com.yanzhenjie.andserver.annotation.*
 import java.net.DatagramPacket

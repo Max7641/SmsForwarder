@@ -1,16 +1,16 @@
-package com.idormy.sms.forwarder.utils.sender
+package top.m7641.sms.forwarder.utils.sender
 
 import android.text.TextUtils
 import android.util.Base64
 import com.google.gson.Gson
-import com.idormy.sms.forwarder.database.entity.Rule
-import com.idormy.sms.forwarder.entity.MsgInfo
-import com.idormy.sms.forwarder.entity.result.DingtalkResult
-import com.idormy.sms.forwarder.entity.setting.DingtalkGroupRobotSetting
-import com.idormy.sms.forwarder.utils.Log
-import com.idormy.sms.forwarder.utils.SendUtils
-import com.idormy.sms.forwarder.utils.SettingUtils
-import com.idormy.sms.forwarder.utils.interceptor.LoggingInterceptor
+import top.m7641.sms.forwarder.database.entity.Rule
+import top.m7641.sms.forwarder.entity.MsgInfo
+import top.m7641.sms.forwarder.entity.result.DingtalkResult
+import top.m7641.sms.forwarder.entity.setting.DingtalkGroupRobotSetting
+import top.m7641.sms.forwarder.utils.Log
+import top.m7641.sms.forwarder.utils.SendUtils
+import top.m7641.sms.forwarder.utils.SettingUtils
+import top.m7641.sms.forwarder.utils.interceptor.LoggingInterceptor
 import com.xuexiang.xhttp2.XHttp
 import com.xuexiang.xhttp2.callback.SimpleCallBack
 import com.xuexiang.xhttp2.exception.ApiException

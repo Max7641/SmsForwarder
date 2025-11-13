@@ -1,9 +1,9 @@
-package com.idormy.sms.forwarder.utils
+package top.m7641.sms.forwarder.utils
 
 import android.annotation.SuppressLint
-import com.idormy.sms.forwarder.entity.CallInfo
-import com.idormy.sms.forwarder.entity.ContactInfo
-import com.idormy.sms.forwarder.entity.SmsInfo
+import top.m7641.sms.forwarder.entity.CallInfo
+import top.m7641.sms.forwarder.entity.ContactInfo
+import top.m7641.sms.forwarder.entity.SmsInfo
 import com.xuexiang.xaop.annotation.MemoryCache
 import java.text.SimpleDateFormat
 import java.util.Calendar

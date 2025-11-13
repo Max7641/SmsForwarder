@@ -1,6 +1,6 @@
-package com.idormy.sms.forwarder.entity
+package top.m7641.sms.forwarder.entity
 
-import com.idormy.sms.forwarder.utils.task.TaskUtils
+import top.m7641.sms.forwarder.utils.task.TaskUtils
 import java.io.Serializable
 
 data class TaskSetting(

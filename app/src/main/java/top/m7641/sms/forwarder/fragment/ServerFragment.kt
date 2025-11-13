@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.fragment
+package top.m7641.sms.forwarder.fragment
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -15,21 +15,21 @@ import android.widget.RadioGroup
 import com.hjq.permissions.OnPermissionCallback
 import com.hjq.permissions.Permission
 import com.hjq.permissions.XXPermissions
-import com.idormy.sms.forwarder.App
-import com.idormy.sms.forwarder.R
-import com.idormy.sms.forwarder.core.BaseFragment
-import com.idormy.sms.forwarder.databinding.FragmentServerBinding
-import com.idormy.sms.forwarder.service.HttpServerService
-import com.idormy.sms.forwarder.service.LocationService
-import com.idormy.sms.forwarder.utils.ACTION_RESTART
-import com.idormy.sms.forwarder.utils.Base64
-import com.idormy.sms.forwarder.utils.HTTP_SERVER_PORT
-import com.idormy.sms.forwarder.utils.HttpServerUtils
-import com.idormy.sms.forwarder.utils.Log
-import com.idormy.sms.forwarder.utils.RandomUtils
-import com.idormy.sms.forwarder.utils.SM4Crypt
-import com.idormy.sms.forwarder.utils.SettingUtils
-import com.idormy.sms.forwarder.utils.XToastUtils
+import top.m7641.sms.forwarder.App
+import top.m7641.sms.forwarder.R
+import top.m7641.sms.forwarder.core.BaseFragment
+import top.m7641.sms.forwarder.databinding.FragmentServerBinding
+import top.m7641.sms.forwarder.service.HttpServerService
+import top.m7641.sms.forwarder.service.LocationService
+import top.m7641.sms.forwarder.utils.ACTION_RESTART
+import top.m7641.sms.forwarder.utils.Base64
+import top.m7641.sms.forwarder.utils.HTTP_SERVER_PORT
+import top.m7641.sms.forwarder.utils.HttpServerUtils
+import top.m7641.sms.forwarder.utils.Log
+import top.m7641.sms.forwarder.utils.RandomUtils
+import top.m7641.sms.forwarder.utils.SM4Crypt
+import top.m7641.sms.forwarder.utils.SettingUtils
+import top.m7641.sms.forwarder.utils.XToastUtils
 import com.xuexiang.xaop.annotation.SingleClick
 import com.xuexiang.xpage.annotation.Page
 import com.xuexiang.xui.widget.actionbar.TitleBar
@@ -253,7 +253,7 @@ class ServerFragment : BaseFragment<FragmentServerBinding?>(), View.OnClickListe
             }
 
             HttpServerUtils.enableApiLocation = isChecked
-            if (ServiceUtils.isServiceRunning("com.idormy.sms.forwarder.service.HttpServerService")) {
+            if (ServiceUtils.isServiceRunning("top.m7641.sms.forwarder.service.HttpServerService")) {
                 Log.d("ServerFragment", "onClick: 重启服务")
                 Intent(appContext, HttpServerService::class.java).also {
                     appContext?.stopService(it)
@@ -281,7 +281,7 @@ class ServerFragment : BaseFragment<FragmentServerBinding?>(), View.OnClickListe
                 checkContactsPermission()
                 checkLocationPermission()
                 Intent(appContext, HttpServerService::class.java).also {
-                    if (ServiceUtils.isServiceRunning("com.idormy.sms.forwarder.service.HttpServerService")) {
+                    if (ServiceUtils.isServiceRunning("top.m7641.sms.forwarder.service.HttpServerService")) {
                         appContext?.stopService(it)
                     } else {
                         appContext?.startService(it)
@@ -357,7 +357,7 @@ class ServerFragment : BaseFragment<FragmentServerBinding?>(), View.OnClickListe
 
                                 XToastUtils.info(getString(R.string.restarting_httpserver))
                                 Intent(appContext, HttpServerService::class.java).also {
-                                    if (ServiceUtils.isServiceRunning("com.idormy.sms.forwarder.service.HttpServerService")) {
+                                    if (ServiceUtils.isServiceRunning("top.m7641.sms.forwarder.service.HttpServerService")) {
                                         appContext?.stopService(it)
                                         Thread.sleep(500)
                                         appContext?.startService(it)
@@ -389,7 +389,7 @@ class ServerFragment : BaseFragment<FragmentServerBinding?>(), View.OnClickListe
 
     //刷新按钮
     private fun refreshButtonText() {
-        if (ServiceUtils.isServiceRunning("com.idormy.sms.forwarder.service.HttpServerService")) {
+        if (ServiceUtils.isServiceRunning("top.m7641.sms.forwarder.service.HttpServerService")) {
             binding!!.btnToggleServer.text = resources.getText(R.string.stop_server)
             binding!!.ivCopy.visibility = View.VISIBLE
             try {

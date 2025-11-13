@@ -1,10 +1,10 @@
-package com.idormy.sms.forwarder.utils.sdkinit
+package top.m7641.sms.forwarder.utils.sdkinit
 
 import android.app.Application
-import com.idormy.sms.forwarder.App
-import com.idormy.sms.forwarder.core.BaseActivity
-import com.idormy.sms.forwarder.utils.SettingUtils
-import com.idormy.sms.forwarder.utils.XToastUtils
+import top.m7641.sms.forwarder.App
+import top.m7641.sms.forwarder.core.BaseActivity
+import top.m7641.sms.forwarder.utils.SettingUtils
+import top.m7641.sms.forwarder.utils.XToastUtils
 import com.xuexiang.xaop.XAOP
 import com.xuexiang.xhttp2.XHttp
 import com.xuexiang.xhttp2.XHttpSDK

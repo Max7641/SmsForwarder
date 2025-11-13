@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.entity.condition
+package top.m7641.sms.forwarder.entity.condition
 
 import java.io.Serializable
 

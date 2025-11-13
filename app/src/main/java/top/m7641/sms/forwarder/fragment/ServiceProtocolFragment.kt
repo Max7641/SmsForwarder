@@ -1,10 +1,10 @@
-package com.idormy.sms.forwarder.fragment
+package top.m7641.sms.forwarder.fragment
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import com.idormy.sms.forwarder.R
-import com.idormy.sms.forwarder.core.BaseFragment
-import com.idormy.sms.forwarder.databinding.FragmentServiceProtocolBinding
+import top.m7641.sms.forwarder.R
+import top.m7641.sms.forwarder.core.BaseFragment
+import top.m7641.sms.forwarder.databinding.FragmentServiceProtocolBinding
 import com.xuexiang.xaop.annotation.MemoryCache
 import com.xuexiang.xpage.annotation.Page
 import com.xuexiang.xrouter.annotation.AutoWired

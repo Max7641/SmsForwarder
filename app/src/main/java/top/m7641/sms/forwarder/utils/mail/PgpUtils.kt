@@ -1,6 +1,6 @@
-package com.idormy.sms.forwarder.utils.mail
+package top.m7641.sms.forwarder.utils.mail
 
-import com.idormy.sms.forwarder.utils.Log
+import top.m7641.sms.forwarder.utils.Log
 import jakarta.activation.DataHandler
 import jakarta.activation.FileDataSource
 import jakarta.mail.Authenticator

@@ -1,9 +1,9 @@
-package com.idormy.sms.forwarder.entity.condition
+package top.m7641.sms.forwarder.entity.condition
 
 import android.bluetooth.BluetoothAdapter
 import android.bluetooth.BluetoothDevice
-import com.idormy.sms.forwarder.App
-import com.idormy.sms.forwarder.R
+import top.m7641.sms.forwarder.App
+import top.m7641.sms.forwarder.R
 import com.xuexiang.xutil.resource.ResUtils.getString
 import java.io.Serializable
 

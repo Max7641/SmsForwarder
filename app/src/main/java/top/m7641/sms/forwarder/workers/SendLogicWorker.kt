@@ -1,16 +1,16 @@
-package com.idormy.sms.forwarder.workers
+package top.m7641.sms.forwarder.workers
 
 import android.content.Context
 import androidx.work.CoroutineWorker
 import androidx.work.WorkerParameters
 import com.google.gson.Gson
-import com.idormy.sms.forwarder.core.Core
-import com.idormy.sms.forwarder.database.entity.Logs
-import com.idormy.sms.forwarder.database.entity.Rule
-import com.idormy.sms.forwarder.entity.MsgInfo
-import com.idormy.sms.forwarder.utils.Log
-import com.idormy.sms.forwarder.utils.SendUtils
-import com.idormy.sms.forwarder.utils.Worker
+import top.m7641.sms.forwarder.core.Core
+import top.m7641.sms.forwarder.database.entity.Logs
+import top.m7641.sms.forwarder.database.entity.Rule
+import top.m7641.sms.forwarder.entity.MsgInfo
+import top.m7641.sms.forwarder.utils.Log
+import top.m7641.sms.forwarder.utils.SendUtils
+import top.m7641.sms.forwarder.utils.Worker
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 

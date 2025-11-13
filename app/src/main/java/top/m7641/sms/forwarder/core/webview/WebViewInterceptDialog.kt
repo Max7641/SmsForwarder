@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.core.webview
+package top.m7641.sms.forwarder.core.webview
 
 import android.content.Context
 import android.content.DialogInterface
@@ -6,9 +6,9 @@ import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.idormy.sms.forwarder.R
-import com.idormy.sms.forwarder.utils.Log
-import com.idormy.sms.forwarder.utils.XToastUtils
+import top.m7641.sms.forwarder.R
+import top.m7641.sms.forwarder.utils.Log
+import top.m7641.sms.forwarder.utils.XToastUtils
 import com.xuexiang.xui.widget.dialog.DialogLoader
 import com.xuexiang.xutil.XUtil
 import com.xuexiang.xutil.app.ActivityUtils
@@ -97,7 +97,7 @@ class WebViewInterceptDialog : AppCompatActivity(), DialogInterface.OnDismissLis
 
         // TODO: 修改你的applink
         const val APP_LINK_HOST = "ppps.cn"
-        const val APP_LINK_ACTION = "com.idormy.sms.forwarder"
+        const val APP_LINK_ACTION = "top.m7641.sms.forwarder"
 
         /**
          * 显示WebView拦截提示

@@ -13,11 +13,11 @@
  * either express or implied. See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.idormy.sms.forwarder.utils.tinker
+package top.m7641.sms.forwarder.utils.tinker
 
 import android.annotation.SuppressLint
 import android.os.Build
-import com.idormy.sms.forwarder.utils.Log
+import top.m7641.sms.forwarder.utils.Log
 import java.io.File
 import java.io.IOException
 

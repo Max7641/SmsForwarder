@@ -1,8 +1,8 @@
-package com.idormy.sms.forwarder.utils.interceptor
+package top.m7641.sms.forwarder.utils.interceptor
 
-import com.idormy.sms.forwarder.App
-import com.idormy.sms.forwarder.utils.Log
-import com.idormy.sms.forwarder.utils.SendUtils
+import top.m7641.sms.forwarder.App
+import top.m7641.sms.forwarder.utils.Log
+import top.m7641.sms.forwarder.utils.SendUtils
 import com.xuexiang.xhttp2.interceptor.HttpLoggingInterceptor
 import com.xuexiang.xhttp2.utils.HttpUtils
 import com.xuexiang.xutil.data.DateUtils

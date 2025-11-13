@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.fragment.condition
+package top.m7641.sms.forwarder.fragment.condition
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -11,17 +11,17 @@ import android.view.ViewGroup
 import android.widget.LinearLayout
 import android.widget.RadioGroup
 import com.google.gson.Gson
-import com.idormy.sms.forwarder.R
-import com.idormy.sms.forwarder.core.BaseFragment
-import com.idormy.sms.forwarder.databinding.FragmentTasksConditionCronBinding
-import com.idormy.sms.forwarder.entity.condition.CronSetting
-import com.idormy.sms.forwarder.utils.KEY_BACK_DATA_CONDITION
-import com.idormy.sms.forwarder.utils.KEY_BACK_DESCRIPTION_CONDITION
-import com.idormy.sms.forwarder.utils.KEY_EVENT_DATA_CONDITION
-import com.idormy.sms.forwarder.utils.KEY_TEST_CONDITION
-import com.idormy.sms.forwarder.utils.Log
-import com.idormy.sms.forwarder.utils.TASK_CONDITION_CRON
-import com.idormy.sms.forwarder.utils.XToastUtils
+import top.m7641.sms.forwarder.R
+import top.m7641.sms.forwarder.core.BaseFragment
+import top.m7641.sms.forwarder.databinding.FragmentTasksConditionCronBinding
+import top.m7641.sms.forwarder.entity.condition.CronSetting
+import top.m7641.sms.forwarder.utils.KEY_BACK_DATA_CONDITION
+import top.m7641.sms.forwarder.utils.KEY_BACK_DESCRIPTION_CONDITION
+import top.m7641.sms.forwarder.utils.KEY_EVENT_DATA_CONDITION
+import top.m7641.sms.forwarder.utils.KEY_TEST_CONDITION
+import top.m7641.sms.forwarder.utils.Log
+import top.m7641.sms.forwarder.utils.TASK_CONDITION_CRON
+import top.m7641.sms.forwarder.utils.XToastUtils
 import com.jeremyliao.liveeventbus.LiveEventBus
 import com.xuexiang.xaop.annotation.SingleClick
 import com.xuexiang.xpage.annotation.Page

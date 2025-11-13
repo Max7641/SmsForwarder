@@ -1,6 +1,6 @@
 @file:Suppress("DEPRECATION")
 
-package com.idormy.sms.forwarder.receiver
+package top.m7641.sms.forwarder.receiver
 
 import android.annotation.SuppressLint
 import android.content.BroadcastReceiver
@@ -16,12 +16,12 @@ import androidx.annotation.RequiresApi
 import androidx.work.OneTimeWorkRequestBuilder
 import androidx.work.WorkManager
 import androidx.work.workDataOf
-import com.idormy.sms.forwarder.utils.DELAY_TIME_AFTER_SIM_READY
-import com.idormy.sms.forwarder.utils.Log
-import com.idormy.sms.forwarder.utils.TASK_CONDITION_NETWORK
-import com.idormy.sms.forwarder.utils.TaskWorker
-import com.idormy.sms.forwarder.utils.task.TaskUtils
-import com.idormy.sms.forwarder.workers.NetworkWorker
+import top.m7641.sms.forwarder.utils.DELAY_TIME_AFTER_SIM_READY
+import top.m7641.sms.forwarder.utils.Log
+import top.m7641.sms.forwarder.utils.TASK_CONDITION_NETWORK
+import top.m7641.sms.forwarder.utils.TaskWorker
+import top.m7641.sms.forwarder.utils.task.TaskUtils
+import top.m7641.sms.forwarder.workers.NetworkWorker
 import java.util.concurrent.TimeUnit
 
 @Suppress("PrivatePropertyName", "DEPRECATION", "UNUSED_PARAMETER")

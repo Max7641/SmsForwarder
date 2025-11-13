@@ -1,9 +1,9 @@
-package com.idormy.sms.forwarder.entity
+package top.m7641.sms.forwarder.entity
 
 import android.graphics.Rect
 import android.os.Parcel
 import android.os.Parcelable.Creator
-import com.idormy.sms.forwarder.R
+import top.m7641.sms.forwarder.R
 import com.xuexiang.xui.widget.imageview.preview.enitity.IPreviewInfo
 import com.xuexiang.xutil.resource.ResUtils.getString
 

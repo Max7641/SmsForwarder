@@ -1,17 +1,17 @@
-package com.idormy.sms.forwarder.utils.sender
+package top.m7641.sms.forwarder.utils.sender
 
 import android.Manifest
 import android.content.pm.PackageManager
 import androidx.core.app.ActivityCompat
-import com.idormy.sms.forwarder.App
-import com.idormy.sms.forwarder.R
-import com.idormy.sms.forwarder.database.entity.Rule
-import com.idormy.sms.forwarder.entity.MsgInfo
-import com.idormy.sms.forwarder.entity.setting.SmsSetting
-import com.idormy.sms.forwarder.utils.Log
-import com.idormy.sms.forwarder.utils.PhoneUtils
-import com.idormy.sms.forwarder.utils.SendUtils
-import com.idormy.sms.forwarder.utils.SettingUtils
+import top.m7641.sms.forwarder.App
+import top.m7641.sms.forwarder.R
+import top.m7641.sms.forwarder.database.entity.Rule
+import top.m7641.sms.forwarder.entity.MsgInfo
+import top.m7641.sms.forwarder.entity.setting.SmsSetting
+import top.m7641.sms.forwarder.utils.Log
+import top.m7641.sms.forwarder.utils.PhoneUtils
+import top.m7641.sms.forwarder.utils.SendUtils
+import top.m7641.sms.forwarder.utils.SettingUtils
 import com.xuexiang.xutil.XUtil
 import com.xuexiang.xutil.net.NetworkUtils
 import com.xuexiang.xutil.resource.ResUtils.getString

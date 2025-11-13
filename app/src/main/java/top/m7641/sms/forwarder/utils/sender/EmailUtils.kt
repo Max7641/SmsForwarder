@@ -1,14 +1,14 @@
-package com.idormy.sms.forwarder.utils.sender
+package top.m7641.sms.forwarder.utils.sender
 
-import com.idormy.sms.forwarder.R
-import com.idormy.sms.forwarder.database.entity.Rule
-import com.idormy.sms.forwarder.entity.MsgInfo
-import com.idormy.sms.forwarder.entity.setting.EmailSetting
-import com.idormy.sms.forwarder.utils.Base64
-import com.idormy.sms.forwarder.utils.Log
-import com.idormy.sms.forwarder.utils.SendUtils
-import com.idormy.sms.forwarder.utils.SettingUtils
-import com.idormy.sms.forwarder.utils.mail.EmailSender
+import top.m7641.sms.forwarder.R
+import top.m7641.sms.forwarder.database.entity.Rule
+import top.m7641.sms.forwarder.entity.MsgInfo
+import top.m7641.sms.forwarder.entity.setting.EmailSetting
+import top.m7641.sms.forwarder.utils.Base64
+import top.m7641.sms.forwarder.utils.Log
+import top.m7641.sms.forwarder.utils.SendUtils
+import top.m7641.sms.forwarder.utils.SettingUtils
+import top.m7641.sms.forwarder.utils.mail.EmailSender
 import com.xuexiang.xutil.resource.ResUtils.getString
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

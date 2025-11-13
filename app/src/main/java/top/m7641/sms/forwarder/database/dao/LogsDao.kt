@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.database.dao
+package top.m7641.sms.forwarder.database.dao
 
 import androidx.paging.PagingSource
 import androidx.room.Dao
@@ -10,8 +10,8 @@ import androidx.room.RawQuery
 import androidx.room.Transaction
 import androidx.room.Update
 import androidx.sqlite.db.SupportSQLiteQuery
-import com.idormy.sms.forwarder.database.entity.Logs
-import com.idormy.sms.forwarder.database.entity.LogsAndRuleAndSender
+import top.m7641.sms.forwarder.database.entity.Logs
+import top.m7641.sms.forwarder.database.entity.LogsAndRuleAndSender
 import io.reactivex.Completable
 import io.reactivex.Single
 

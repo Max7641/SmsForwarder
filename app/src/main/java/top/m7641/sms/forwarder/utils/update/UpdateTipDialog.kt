@@ -1,12 +1,12 @@
-package com.idormy.sms.forwarder.utils.update
+package top.m7641.sms.forwarder.utils.update
 
 import android.content.DialogInterface
 import android.content.Intent
 import android.os.Bundle
 import android.text.TextUtils
 import androidx.appcompat.app.AppCompatActivity
-import com.idormy.sms.forwarder.R
-import com.idormy.sms.forwarder.utils.CommonUtils.Companion.goWeb
+import top.m7641.sms.forwarder.R
+import top.m7641.sms.forwarder.utils.CommonUtils.Companion.goWeb
 import com.xuexiang.xui.widget.dialog.DialogLoader
 import com.xuexiang.xupdate.XUpdate
 
@@ -36,7 +36,7 @@ class UpdateTipDialog : AppCompatActivity(), DialogInterface.OnDismissListener {
     }
 
     companion object {
-        const val KEY_CONTENT = "com.idormy.sms.forwarder.utils.update.KEY_CONTENT"
+        const val KEY_CONTENT = "top.m7641.sms.forwarder.utils.update.KEY_CONTENT"
 
         // 填写你应用下载类型名
         const val DOWNLOAD_TYPE_NAME = "GitHub"

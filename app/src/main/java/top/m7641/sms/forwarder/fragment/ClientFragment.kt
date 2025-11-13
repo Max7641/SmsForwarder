@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.fragment
+package top.m7641.sms.forwarder.fragment
 
 import android.text.Editable
 import android.text.TextWatcher
@@ -8,21 +8,21 @@ import android.view.ViewGroup
 import android.widget.RadioGroup
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import com.idormy.sms.forwarder.App
-import com.idormy.sms.forwarder.R
-import com.idormy.sms.forwarder.adapter.WidgetItemAdapter
-import com.idormy.sms.forwarder.core.BaseFragment
-import com.idormy.sms.forwarder.databinding.FragmentClientBinding
-import com.idormy.sms.forwarder.server.model.BaseResponse
-import com.idormy.sms.forwarder.server.model.ConfigData
-import com.idormy.sms.forwarder.utils.Base64
-import com.idormy.sms.forwarder.utils.CommonUtils
-import com.idormy.sms.forwarder.utils.HttpServerUtils
-import com.idormy.sms.forwarder.utils.Log
-import com.idormy.sms.forwarder.utils.RSACrypt
-import com.idormy.sms.forwarder.utils.SM4Crypt
-import com.idormy.sms.forwarder.utils.SettingUtils
-import com.idormy.sms.forwarder.utils.XToastUtils
+import top.m7641.sms.forwarder.App
+import top.m7641.sms.forwarder.R
+import top.m7641.sms.forwarder.adapter.WidgetItemAdapter
+import top.m7641.sms.forwarder.core.BaseFragment
+import top.m7641.sms.forwarder.databinding.FragmentClientBinding
+import top.m7641.sms.forwarder.server.model.BaseResponse
+import top.m7641.sms.forwarder.server.model.ConfigData
+import top.m7641.sms.forwarder.utils.Base64
+import top.m7641.sms.forwarder.utils.CommonUtils
+import top.m7641.sms.forwarder.utils.HttpServerUtils
+import top.m7641.sms.forwarder.utils.Log
+import top.m7641.sms.forwarder.utils.RSACrypt
+import top.m7641.sms.forwarder.utils.SM4Crypt
+import top.m7641.sms.forwarder.utils.SettingUtils
+import top.m7641.sms.forwarder.utils.XToastUtils
 import com.xuexiang.xaop.annotation.SingleClick
 import com.xuexiang.xhttp2.XHttp
 import com.xuexiang.xhttp2.callback.SimpleCallBack
@@ -55,31 +55,31 @@ class ClientFragment : BaseFragment<FragmentClientBinding?>(), View.OnClickListe
     private var mCountDownHelper: CountDownButtonHelper? = null
     private var CLIENT_FRAGMENT_LIST = listOf(
         PageInfo(
-            getString(R.string.api_clone), "com.idormy.sms.forwarder.fragment.client.CloneFragment", "{\"\":\"\"}", CoreAnim.slide, R.drawable.icon_api_clone
+            getString(R.string.api_clone), "top.m7641.sms.forwarder.fragment.client.CloneFragment", "{\"\":\"\"}", CoreAnim.slide, R.drawable.icon_api_clone
         ),
         PageInfo(
-            getString(R.string.api_sms_query), "com.idormy.sms.forwarder.fragment.client.SmsQueryFragment", "{\"\":\"\"}", CoreAnim.slide, R.drawable.icon_api_sms_query
+            getString(R.string.api_sms_query), "top.m7641.sms.forwarder.fragment.client.SmsQueryFragment", "{\"\":\"\"}", CoreAnim.slide, R.drawable.icon_api_sms_query
         ),
         PageInfo(
-            getString(R.string.api_sms_send), "com.idormy.sms.forwarder.fragment.client.SmsSendFragment", "{\"\":\"\"}", CoreAnim.slide, R.drawable.icon_api_sms_send
+            getString(R.string.api_sms_send), "top.m7641.sms.forwarder.fragment.client.SmsSendFragment", "{\"\":\"\"}", CoreAnim.slide, R.drawable.icon_api_sms_send
         ),
         PageInfo(
-            getString(R.string.api_call_query), "com.idormy.sms.forwarder.fragment.client.CallQueryFragment", "{\"\":\"\"}", CoreAnim.slide, R.drawable.icon_api_call_query
+            getString(R.string.api_call_query), "top.m7641.sms.forwarder.fragment.client.CallQueryFragment", "{\"\":\"\"}", CoreAnim.slide, R.drawable.icon_api_call_query
         ),
         PageInfo(
-            getString(R.string.api_contact_query), "com.idormy.sms.forwarder.fragment.client.ContactQueryFragment", "{\"\":\"\"}", CoreAnim.slide, R.drawable.icon_api_contact_query
+            getString(R.string.api_contact_query), "top.m7641.sms.forwarder.fragment.client.ContactQueryFragment", "{\"\":\"\"}", CoreAnim.slide, R.drawable.icon_api_contact_query
         ),
         PageInfo(
-            getString(R.string.api_contact_add), "com.idormy.sms.forwarder.fragment.client.ContactAddFragment", "{\"\":\"\"}", CoreAnim.slide, R.drawable.icon_api_contact_add
+            getString(R.string.api_contact_add), "top.m7641.sms.forwarder.fragment.client.ContactAddFragment", "{\"\":\"\"}", CoreAnim.slide, R.drawable.icon_api_contact_add
         ),
         PageInfo(
-            getString(R.string.api_wol), "com.idormy.sms.forwarder.fragment.client.WolSendFragment", "{\"\":\"\"}", CoreAnim.slide, R.drawable.icon_api_wol
+            getString(R.string.api_wol), "top.m7641.sms.forwarder.fragment.client.WolSendFragment", "{\"\":\"\"}", CoreAnim.slide, R.drawable.icon_api_wol
         ),
         PageInfo(
-            getString(R.string.api_location), "com.idormy.sms.forwarder.fragment.client.LocationFragment", "{\"\":\"\"}", CoreAnim.slide, R.drawable.icon_api_location
+            getString(R.string.api_location), "top.m7641.sms.forwarder.fragment.client.LocationFragment", "{\"\":\"\"}", CoreAnim.slide, R.drawable.icon_api_location
         ),
         PageInfo(
-            getString(R.string.api_battery_query), "com.idormy.sms.forwarder.fragment.client.BatteryQueryFragment", "{\"\":\"\"}", CoreAnim.slide, R.drawable.icon_api_battery_query
+            getString(R.string.api_battery_query), "top.m7641.sms.forwarder.fragment.client.BatteryQueryFragment", "{\"\":\"\"}", CoreAnim.slide, R.drawable.icon_api_battery_query
         ),
     )
 

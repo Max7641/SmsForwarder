@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.fragment.condition
+package top.m7641.sms.forwarder.fragment.condition
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -6,16 +6,16 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.google.gson.Gson
-import com.idormy.sms.forwarder.R
-import com.idormy.sms.forwarder.core.BaseFragment
-import com.idormy.sms.forwarder.databinding.FragmentTasksConditionSimBinding
-import com.idormy.sms.forwarder.entity.condition.SimSetting
-import com.idormy.sms.forwarder.utils.KEY_BACK_DATA_CONDITION
-import com.idormy.sms.forwarder.utils.KEY_BACK_DESCRIPTION_CONDITION
-import com.idormy.sms.forwarder.utils.KEY_EVENT_DATA_CONDITION
-import com.idormy.sms.forwarder.utils.Log
-import com.idormy.sms.forwarder.utils.TASK_CONDITION_SIM
-import com.idormy.sms.forwarder.utils.XToastUtils
+import top.m7641.sms.forwarder.R
+import top.m7641.sms.forwarder.core.BaseFragment
+import top.m7641.sms.forwarder.databinding.FragmentTasksConditionSimBinding
+import top.m7641.sms.forwarder.entity.condition.SimSetting
+import top.m7641.sms.forwarder.utils.KEY_BACK_DATA_CONDITION
+import top.m7641.sms.forwarder.utils.KEY_BACK_DESCRIPTION_CONDITION
+import top.m7641.sms.forwarder.utils.KEY_EVENT_DATA_CONDITION
+import top.m7641.sms.forwarder.utils.Log
+import top.m7641.sms.forwarder.utils.TASK_CONDITION_SIM
+import top.m7641.sms.forwarder.utils.XToastUtils
 import com.xuexiang.xaop.annotation.SingleClick
 import com.xuexiang.xpage.annotation.Page
 import com.xuexiang.xrouter.annotation.AutoWired

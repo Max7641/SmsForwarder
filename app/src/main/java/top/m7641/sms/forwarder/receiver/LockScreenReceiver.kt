@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.receiver
+package top.m7641.sms.forwarder.receiver
 
 import android.app.KeyguardManager
 import android.content.BroadcastReceiver
@@ -8,11 +8,11 @@ import android.os.Build
 import androidx.work.OneTimeWorkRequestBuilder
 import androidx.work.WorkManager
 import androidx.work.workDataOf
-import com.idormy.sms.forwarder.utils.Log
-import com.idormy.sms.forwarder.utils.TASK_CONDITION_LOCK_SCREEN
-import com.idormy.sms.forwarder.utils.TaskWorker
-import com.idormy.sms.forwarder.utils.task.TaskUtils
-import com.idormy.sms.forwarder.workers.LockScreenWorker
+import top.m7641.sms.forwarder.utils.Log
+import top.m7641.sms.forwarder.utils.TASK_CONDITION_LOCK_SCREEN
+import top.m7641.sms.forwarder.utils.TaskWorker
+import top.m7641.sms.forwarder.utils.task.TaskUtils
+import top.m7641.sms.forwarder.workers.LockScreenWorker
 
 @Suppress("PrivatePropertyName")
 class LockScreenReceiver : BroadcastReceiver() {

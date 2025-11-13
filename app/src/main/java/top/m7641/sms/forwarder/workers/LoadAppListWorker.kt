@@ -1,12 +1,12 @@
-package com.idormy.sms.forwarder.workers
+package top.m7641.sms.forwarder.workers
 
 import android.content.Context
 import androidx.work.CoroutineWorker
 import androidx.work.WorkerParameters
-import com.idormy.sms.forwarder.App
-import com.idormy.sms.forwarder.utils.AppUtils
-import com.idormy.sms.forwarder.utils.EVENT_LOAD_APP_LIST
-import com.idormy.sms.forwarder.utils.Log
+import top.m7641.sms.forwarder.App
+import top.m7641.sms.forwarder.utils.AppUtils
+import top.m7641.sms.forwarder.utils.EVENT_LOAD_APP_LIST
+import top.m7641.sms.forwarder.utils.Log
 import com.jeremyliao.liveeventbus.LiveEventBus
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext

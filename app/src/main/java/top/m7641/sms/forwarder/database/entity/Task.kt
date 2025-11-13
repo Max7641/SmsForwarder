@@ -1,12 +1,12 @@
-package com.idormy.sms.forwarder.database.entity
+package top.m7641.sms.forwarder.database.entity
 
 import android.os.Parcelable
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.idormy.sms.forwarder.R
-import com.idormy.sms.forwarder.utils.STATUS_OFF
-import com.idormy.sms.forwarder.utils.task.TaskUtils
+import top.m7641.sms.forwarder.R
+import top.m7641.sms.forwarder.utils.STATUS_OFF
+import top.m7641.sms.forwarder.utils.task.TaskUtils
 import kotlinx.parcelize.Parcelize
 import java.util.Date
 

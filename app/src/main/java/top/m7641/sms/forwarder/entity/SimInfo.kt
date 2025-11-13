@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.entity
+package top.m7641.sms.forwarder.entity
 
 import com.google.gson.annotations.SerializedName
 import java.io.Serializable

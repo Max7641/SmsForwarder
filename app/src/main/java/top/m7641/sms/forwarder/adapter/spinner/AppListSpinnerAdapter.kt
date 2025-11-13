@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.adapter.spinner
+package top.m7641.sms.forwarder.adapter.spinner
 
 import android.annotation.SuppressLint
 import android.os.Build
@@ -12,8 +12,8 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.annotation.ColorInt
 import androidx.annotation.DrawableRes
-import com.idormy.sms.forwarder.R
-import com.idormy.sms.forwarder.utils.Log
+import top.m7641.sms.forwarder.R
+import top.m7641.sms.forwarder.utils.Log
 import com.xuexiang.xui.utils.CollectionUtils
 import com.xuexiang.xui.widget.spinner.editspinner.BaseEditSpinnerAdapter
 import com.xuexiang.xui.widget.spinner.editspinner.EditSpinnerFilter

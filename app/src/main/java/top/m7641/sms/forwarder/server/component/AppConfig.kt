@@ -1,7 +1,7 @@
-package com.idormy.sms.forwarder.server.component
+package top.m7641.sms.forwarder.server.component
 
 import android.content.Context
-import com.idormy.sms.forwarder.utils.HttpServerUtils
+import top.m7641.sms.forwarder.utils.HttpServerUtils
 import com.xuexiang.xrouter.utils.TextUtils
 import com.yanzhenjie.andserver.annotation.Config
 import com.yanzhenjie.andserver.framework.config.WebConfig

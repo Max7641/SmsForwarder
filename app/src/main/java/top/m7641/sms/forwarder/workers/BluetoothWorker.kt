@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.workers
+package top.m7641.sms.forwarder.workers
 
 import android.bluetooth.BluetoothAdapter
 import android.bluetooth.BluetoothDevice
@@ -9,13 +9,13 @@ import androidx.work.OneTimeWorkRequestBuilder
 import androidx.work.WorkManager
 import androidx.work.WorkerParameters
 import com.google.gson.Gson
-import com.idormy.sms.forwarder.core.Core
-import com.idormy.sms.forwarder.entity.MsgInfo
-import com.idormy.sms.forwarder.entity.TaskSetting
-import com.idormy.sms.forwarder.entity.condition.BluetoothSetting
-import com.idormy.sms.forwarder.utils.Log
-import com.idormy.sms.forwarder.utils.TaskWorker
-import com.idormy.sms.forwarder.utils.task.ConditionUtils
+import top.m7641.sms.forwarder.core.Core
+import top.m7641.sms.forwarder.entity.MsgInfo
+import top.m7641.sms.forwarder.entity.TaskSetting
+import top.m7641.sms.forwarder.entity.condition.BluetoothSetting
+import top.m7641.sms.forwarder.utils.Log
+import top.m7641.sms.forwarder.utils.TaskWorker
+import top.m7641.sms.forwarder.utils.task.ConditionUtils
 import java.util.Date
 
 @Suppress("PrivatePropertyName", "DEPRECATION")

@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.adapter.menu
+package top.m7641.sms.forwarder.adapter.menu
 
 import android.graphics.drawable.Drawable
 import android.view.LayoutInflater
@@ -6,7 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
-import com.idormy.sms.forwarder.R
+import top.m7641.sms.forwarder.R
 
 class SimpleItem(
     private val icon: Drawable,

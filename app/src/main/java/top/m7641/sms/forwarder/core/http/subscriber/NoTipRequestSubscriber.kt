@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.core.http.subscriber
+package top.m7641.sms.forwarder.core.http.subscriber
 
 import com.xuexiang.xhttp2.exception.ApiException
 import com.xuexiang.xhttp2.model.XHttpRequest

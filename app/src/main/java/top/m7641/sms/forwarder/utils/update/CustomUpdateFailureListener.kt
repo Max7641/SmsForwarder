@@ -1,8 +1,8 @@
-package com.idormy.sms.forwarder.utils.update
+package top.m7641.sms.forwarder.utils.update
 
-import com.idormy.sms.forwarder.R
-import com.idormy.sms.forwarder.utils.XToastUtils
-import com.idormy.sms.forwarder.utils.update.UpdateTipDialog.Companion.show
+import top.m7641.sms.forwarder.R
+import top.m7641.sms.forwarder.utils.XToastUtils
+import top.m7641.sms.forwarder.utils.update.UpdateTipDialog.Companion.show
 import com.xuexiang.xupdate.entity.UpdateError
 import com.xuexiang.xupdate.listener.OnUpdateFailureListener
 import com.xuexiang.xutil.resource.ResUtils.getString

@@ -1,9 +1,9 @@
-package com.idormy.sms.forwarder.database.repository
+package top.m7641.sms.forwarder.database.repository
 
 import androidx.annotation.WorkerThread
 import androidx.sqlite.db.SimpleSQLiteQuery
-import com.idormy.sms.forwarder.database.dao.SenderDao
-import com.idormy.sms.forwarder.database.entity.Sender
+import top.m7641.sms.forwarder.database.dao.SenderDao
+import top.m7641.sms.forwarder.database.entity.Sender
 import io.reactivex.Single
 import kotlinx.coroutines.flow.Flow
 

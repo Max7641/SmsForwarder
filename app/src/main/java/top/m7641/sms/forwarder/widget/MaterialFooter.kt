@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.widget
+package top.m7641.sms.forwarder.widget
 
 import android.annotation.SuppressLint
 import android.content.Context

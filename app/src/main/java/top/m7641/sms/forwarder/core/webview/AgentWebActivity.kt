@@ -1,12 +1,12 @@
-package com.idormy.sms.forwarder.core.webview
+package top.m7641.sms.forwarder.core.webview
 
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.view.KeyEvent
 import androidx.appcompat.app.AppCompatActivity
-import com.idormy.sms.forwarder.R
-import com.idormy.sms.forwarder.utils.XToastUtils
+import top.m7641.sms.forwarder.R
+import top.m7641.sms.forwarder.utils.XToastUtils
 import com.xuexiang.xrouter.facade.Postcard
 import com.xuexiang.xrouter.facade.callback.NavCallback
 import com.xuexiang.xrouter.launcher.XRouter

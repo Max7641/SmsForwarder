@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.server.component
+package top.m7641.sms.forwarder.server.component
 
 import com.google.gson.TypeAdapter
 import com.google.gson.stream.JsonReader

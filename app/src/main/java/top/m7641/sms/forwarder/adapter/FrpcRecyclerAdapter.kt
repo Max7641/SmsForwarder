@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.adapter
+package top.m7641.sms.forwarder.adapter
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
@@ -9,10 +9,10 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.RecyclerView
-import com.idormy.sms.forwarder.R
-import com.idormy.sms.forwarder.adapter.base.ItemMoveCallback
-import com.idormy.sms.forwarder.database.entity.Frpc
-import com.idormy.sms.forwarder.utils.STATUS_OFF
+import top.m7641.sms.forwarder.R
+import top.m7641.sms.forwarder.adapter.base.ItemMoveCallback
+import top.m7641.sms.forwarder.database.entity.Frpc
+import top.m7641.sms.forwarder.utils.STATUS_OFF
 import java.util.Collections
 
 @Suppress("DEPRECATION")

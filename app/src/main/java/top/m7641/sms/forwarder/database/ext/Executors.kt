@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.database.ext
+package top.m7641.sms.forwarder.database.ext
 
 import java.util.concurrent.Executors
 

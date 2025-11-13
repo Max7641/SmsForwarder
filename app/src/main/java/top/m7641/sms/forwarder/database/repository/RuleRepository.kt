@@ -1,9 +1,9 @@
-package com.idormy.sms.forwarder.database.repository
+package top.m7641.sms.forwarder.database.repository
 
 import androidx.annotation.WorkerThread
 import androidx.sqlite.db.SimpleSQLiteQuery
-import com.idormy.sms.forwarder.database.dao.RuleDao
-import com.idormy.sms.forwarder.database.entity.Rule
+import top.m7641.sms.forwarder.database.dao.RuleDao
+import top.m7641.sms.forwarder.database.entity.Rule
 import io.reactivex.Single
 
 class RuleRepository(private val ruleDao: RuleDao) {

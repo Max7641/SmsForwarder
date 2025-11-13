@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.core
+package top.m7641.sms.forwarder.core
 
 import android.content.Context
 import android.os.Bundle
@@ -6,11 +6,11 @@ import android.view.LayoutInflater
 import android.view.View
 import androidx.viewbinding.ViewBinding
 import com.hjq.language.MultiLanguages
-import com.idormy.sms.forwarder.utils.EVENT_TOAST_ERROR
-import com.idormy.sms.forwarder.utils.EVENT_TOAST_INFO
-import com.idormy.sms.forwarder.utils.EVENT_TOAST_SUCCESS
-import com.idormy.sms.forwarder.utils.EVENT_TOAST_WARNING
-import com.idormy.sms.forwarder.utils.XToastUtils
+import top.m7641.sms.forwarder.utils.EVENT_TOAST_ERROR
+import top.m7641.sms.forwarder.utils.EVENT_TOAST_INFO
+import top.m7641.sms.forwarder.utils.EVENT_TOAST_SUCCESS
+import top.m7641.sms.forwarder.utils.EVENT_TOAST_WARNING
+import top.m7641.sms.forwarder.utils.XToastUtils
 import com.jeremyliao.liveeventbus.LiveEventBus
 import com.xuexiang.xpage.base.XPageActivity
 import com.xuexiang.xpage.base.XPageFragment

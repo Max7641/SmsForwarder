@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.adapter.menu
+package top.m7641.sms.forwarder.adapter.menu
 
 import android.view.ViewGroup
 

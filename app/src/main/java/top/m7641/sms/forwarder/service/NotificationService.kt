@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.service
+package top.m7641.sms.forwarder.service
 
 import android.annotation.SuppressLint
 import android.content.ComponentName
@@ -9,14 +9,14 @@ import androidx.work.OneTimeWorkRequestBuilder
 import androidx.work.WorkManager
 import androidx.work.workDataOf
 import com.google.gson.Gson
-import com.idormy.sms.forwarder.core.Core
-import com.idormy.sms.forwarder.database.entity.Rule
-import com.idormy.sms.forwarder.entity.MsgInfo
-import com.idormy.sms.forwarder.utils.Log
-import com.idormy.sms.forwarder.utils.PACKAGE_NAME
-import com.idormy.sms.forwarder.utils.SettingUtils
-import com.idormy.sms.forwarder.utils.Worker
-import com.idormy.sms.forwarder.workers.SendWorker
+import top.m7641.sms.forwarder.core.Core
+import top.m7641.sms.forwarder.database.entity.Rule
+import top.m7641.sms.forwarder.entity.MsgInfo
+import top.m7641.sms.forwarder.utils.Log
+import top.m7641.sms.forwarder.utils.PACKAGE_NAME
+import top.m7641.sms.forwarder.utils.SettingUtils
+import top.m7641.sms.forwarder.utils.Worker
+import top.m7641.sms.forwarder.workers.SendWorker
 import com.xuexiang.xrouter.utils.TextUtils
 import com.xuexiang.xutil.display.ScreenUtils
 import java.util.Date

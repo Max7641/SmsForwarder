@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.core
+package top.m7641.sms.forwarder.core
 
 import android.content.res.Configuration
 import android.os.Parcelable

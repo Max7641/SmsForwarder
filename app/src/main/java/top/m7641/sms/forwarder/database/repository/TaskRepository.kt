@@ -1,9 +1,9 @@
-package com.idormy.sms.forwarder.database.repository
+package top.m7641.sms.forwarder.database.repository
 
 import androidx.annotation.WorkerThread
 import androidx.sqlite.db.SimpleSQLiteQuery
-import com.idormy.sms.forwarder.database.dao.TaskDao
-import com.idormy.sms.forwarder.database.entity.Task
+import top.m7641.sms.forwarder.database.dao.TaskDao
+import top.m7641.sms.forwarder.database.entity.Task
 import io.reactivex.Single
 import java.util.Date
 

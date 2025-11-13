@@ -1,7 +1,7 @@
-package com.idormy.sms.forwarder.core.http.subscriber
+package top.m7641.sms.forwarder.core.http.subscriber
 
-import com.idormy.sms.forwarder.core.BaseFragment
-import com.idormy.sms.forwarder.utils.XToastUtils
+import top.m7641.sms.forwarder.core.BaseFragment
+import top.m7641.sms.forwarder.utils.XToastUtils
 import com.xuexiang.xhttp2.exception.ApiException
 import com.xuexiang.xhttp2.model.XHttpRequest
 import com.xuexiang.xhttp2.subsciber.ProgressLoadingSubscriber

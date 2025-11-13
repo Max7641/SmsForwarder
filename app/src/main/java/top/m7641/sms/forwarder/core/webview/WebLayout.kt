@@ -1,10 +1,10 @@
-package com.idormy.sms.forwarder.core.webview
+package top.m7641.sms.forwarder.core.webview
 
 import android.app.Activity
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.webkit.WebView
-import com.idormy.sms.forwarder.R
+import top.m7641.sms.forwarder.R
 import com.just.agentweb.widget.IWebLayout
 import com.scwang.smartrefresh.layout.SmartRefreshLayout
 

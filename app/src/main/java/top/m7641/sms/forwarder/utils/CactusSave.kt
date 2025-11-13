@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.utils
+package top.m7641.sms.forwarder.utils
 
 object CactusSave {
     //Cactus存活时间

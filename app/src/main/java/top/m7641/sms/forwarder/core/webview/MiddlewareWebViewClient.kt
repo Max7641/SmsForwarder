@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.core.webview
+package top.m7641.sms.forwarder.core.webview
 
 import android.net.Uri
 import android.os.Build
@@ -6,9 +6,9 @@ import android.webkit.WebResourceRequest
 import android.webkit.WebResourceResponse
 import android.webkit.WebView
 import androidx.annotation.RequiresApi
-import com.idormy.sms.forwarder.R
-import com.idormy.sms.forwarder.core.webview.WebViewInterceptDialog.Companion.show
-import com.idormy.sms.forwarder.utils.Log
+import top.m7641.sms.forwarder.R
+import top.m7641.sms.forwarder.core.webview.WebViewInterceptDialog.Companion.show
+import top.m7641.sms.forwarder.utils.Log
 import com.just.agentweb.core.client.MiddlewareWebClientBase
 import com.xuexiang.xutil.resource.ResUtils.getStringArray
 import java.util.Locale

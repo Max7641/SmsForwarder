@@ -1,16 +1,16 @@
-package com.idormy.sms.forwarder.utils.sender
+package top.m7641.sms.forwarder.utils.sender
 
 import android.annotation.SuppressLint
 import android.text.TextUtils
 import android.util.Base64
 import com.google.gson.Gson
-import com.idormy.sms.forwarder.database.entity.Rule
-import com.idormy.sms.forwarder.entity.MsgInfo
-import com.idormy.sms.forwarder.entity.setting.SocketSetting
-import com.idormy.sms.forwarder.utils.AppUtils
-import com.idormy.sms.forwarder.utils.Log
-import com.idormy.sms.forwarder.utils.SendUtils
-import com.idormy.sms.forwarder.utils.SettingUtils
+import top.m7641.sms.forwarder.database.entity.Rule
+import top.m7641.sms.forwarder.entity.MsgInfo
+import top.m7641.sms.forwarder.entity.setting.SocketSetting
+import top.m7641.sms.forwarder.utils.AppUtils
+import top.m7641.sms.forwarder.utils.Log
+import top.m7641.sms.forwarder.utils.SendUtils
+import top.m7641.sms.forwarder.utils.SettingUtils
 import org.eclipse.paho.client.mqttv3.IMqttDeliveryToken
 import org.eclipse.paho.client.mqttv3.MqttCallbackExtended
 import org.eclipse.paho.client.mqttv3.MqttClient

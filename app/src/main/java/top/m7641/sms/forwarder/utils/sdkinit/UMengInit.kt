@@ -1,10 +1,10 @@
-package com.idormy.sms.forwarder.utils.sdkinit
+package top.m7641.sms.forwarder.utils.sdkinit
 
 import android.app.Application
 import android.content.Context
-import com.idormy.sms.forwarder.App
-import com.idormy.sms.forwarder.BuildConfig
-import com.idormy.sms.forwarder.utils.SettingUtils.Companion.isAgreePrivacy
+import top.m7641.sms.forwarder.App
+import top.m7641.sms.forwarder.BuildConfig
+import top.m7641.sms.forwarder.utils.SettingUtils.Companion.isAgreePrivacy
 //import com.meituan.android.walle.WalleChannelReader
 import com.umeng.analytics.MobclickAgent
 import com.umeng.commonsdk.UMConfigure

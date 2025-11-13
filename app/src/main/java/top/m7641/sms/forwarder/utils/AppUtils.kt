@@ -1,11 +1,11 @@
-package com.idormy.sms.forwarder.utils
+package top.m7641.sms.forwarder.utils
 
 import android.annotation.SuppressLint
 import android.content.pm.ApplicationInfo
 import android.content.pm.PackageInfo
 import android.content.pm.PackageManager
 import android.graphics.drawable.Drawable
-import com.idormy.sms.forwarder.App
+import top.m7641.sms.forwarder.App
 
 data class AppInfo(
     val name: String,

@@ -1,8 +1,8 @@
-package com.idormy.sms.forwarder.utils
+package top.m7641.sms.forwarder.utils
 
 import android.content.Context
 import android.os.Build
-import com.idormy.sms.forwarder.App
+import top.m7641.sms.forwarder.App
 import java.io.File
 import java.io.FileWriter
 import java.text.SimpleDateFormat
@@ -42,7 +42,7 @@ object Log {
 
     fun logToFile(level: String, tag: String, message: String) {
         if (Build.DEVICE == null) return
-        
+
         if (!::appContext.isInitialized) {
             throw IllegalStateException("Log not initialized. Call init(context) first.")
         }

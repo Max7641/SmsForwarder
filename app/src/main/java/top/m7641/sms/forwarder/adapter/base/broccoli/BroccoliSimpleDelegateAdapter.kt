@@ -1,11 +1,11 @@
 @file:Suppress("unused")
 
-package com.idormy.sms.forwarder.adapter.base.broccoli
+package top.m7641.sms.forwarder.adapter.base.broccoli
 
 import android.view.View
 import com.alibaba.android.vlayout.LayoutHelper
-import com.idormy.sms.forwarder.adapter.base.delegate.SimpleDelegateAdapter
-import com.idormy.sms.forwarder.adapter.base.delegate.XDelegateAdapter
+import top.m7641.sms.forwarder.adapter.base.delegate.SimpleDelegateAdapter
+import top.m7641.sms.forwarder.adapter.base.delegate.XDelegateAdapter
 import com.xuexiang.xui.adapter.recyclerview.RecyclerViewHolder
 import me.samlss.broccoli.Broccoli
 

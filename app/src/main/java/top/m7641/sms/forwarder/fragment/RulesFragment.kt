@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.fragment
+package top.m7641.sms.forwarder.fragment
 
 import android.view.LayoutInflater
 import android.view.View
@@ -7,18 +7,18 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.RecyclerView.RecycledViewPool
 import com.alibaba.android.vlayout.VirtualLayoutManager
-import com.idormy.sms.forwarder.R
-import com.idormy.sms.forwarder.activity.MainActivity
-import com.idormy.sms.forwarder.adapter.RulePagingAdapter
-import com.idormy.sms.forwarder.core.BaseFragment
-import com.idormy.sms.forwarder.database.entity.Rule
-import com.idormy.sms.forwarder.database.viewmodel.BaseViewModelFactory
-import com.idormy.sms.forwarder.database.viewmodel.RuleViewModel
-import com.idormy.sms.forwarder.databinding.FragmentRulesBinding
-import com.idormy.sms.forwarder.utils.KEY_RULE_CLONE
-import com.idormy.sms.forwarder.utils.KEY_RULE_ID
-import com.idormy.sms.forwarder.utils.KEY_RULE_TYPE
-import com.idormy.sms.forwarder.utils.XToastUtils
+import top.m7641.sms.forwarder.R
+import top.m7641.sms.forwarder.activity.MainActivity
+import top.m7641.sms.forwarder.adapter.RulePagingAdapter
+import top.m7641.sms.forwarder.core.BaseFragment
+import top.m7641.sms.forwarder.database.entity.Rule
+import top.m7641.sms.forwarder.database.viewmodel.BaseViewModelFactory
+import top.m7641.sms.forwarder.database.viewmodel.RuleViewModel
+import top.m7641.sms.forwarder.databinding.FragmentRulesBinding
+import top.m7641.sms.forwarder.utils.KEY_RULE_CLONE
+import top.m7641.sms.forwarder.utils.KEY_RULE_ID
+import top.m7641.sms.forwarder.utils.KEY_RULE_TYPE
+import top.m7641.sms.forwarder.utils.XToastUtils
 import com.scwang.smartrefresh.layout.api.RefreshLayout
 import com.xuexiang.xaop.annotation.SingleClick
 import com.xuexiang.xpage.annotation.Page

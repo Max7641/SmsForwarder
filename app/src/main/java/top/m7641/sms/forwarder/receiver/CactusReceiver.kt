@@ -1,11 +1,11 @@
-package com.idormy.sms.forwarder.receiver
+package top.m7641.sms.forwarder.receiver
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-import com.idormy.sms.forwarder.utils.Log
+import top.m7641.sms.forwarder.utils.Log
 import com.gyf.cactus.Cactus
-import com.idormy.sms.forwarder.App
+import top.m7641.sms.forwarder.App
 
 //接收Cactus广播
 class CactusReceiver : BroadcastReceiver() {

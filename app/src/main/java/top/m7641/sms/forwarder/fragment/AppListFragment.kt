@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.fragment
+package top.m7641.sms.forwarder.fragment
 
 import android.content.ClipData
 import android.content.ClipboardManager
@@ -12,16 +12,16 @@ import androidx.work.WorkManager
 import com.hjq.permissions.OnPermissionCallback
 import com.hjq.permissions.Permission
 import com.hjq.permissions.XXPermissions
-import com.idormy.sms.forwarder.App
-import com.idormy.sms.forwarder.R
-import com.idormy.sms.forwarder.adapter.AppListAdapter
-import com.idormy.sms.forwarder.core.BaseFragment
-import com.idormy.sms.forwarder.databinding.FragmentAppListBinding
-import com.idormy.sms.forwarder.utils.AppInfo
-import com.idormy.sms.forwarder.utils.EVENT_LOAD_APP_LIST
-import com.idormy.sms.forwarder.utils.Log
-import com.idormy.sms.forwarder.utils.XToastUtils
-import com.idormy.sms.forwarder.workers.LoadAppListWorker
+import top.m7641.sms.forwarder.App
+import top.m7641.sms.forwarder.R
+import top.m7641.sms.forwarder.adapter.AppListAdapter
+import top.m7641.sms.forwarder.core.BaseFragment
+import top.m7641.sms.forwarder.databinding.FragmentAppListBinding
+import top.m7641.sms.forwarder.utils.AppInfo
+import top.m7641.sms.forwarder.utils.EVENT_LOAD_APP_LIST
+import top.m7641.sms.forwarder.utils.Log
+import top.m7641.sms.forwarder.utils.XToastUtils
+import top.m7641.sms.forwarder.workers.LoadAppListWorker
 import com.jeremyliao.liveeventbus.LiveEventBus
 import com.scwang.smartrefresh.layout.api.RefreshLayout
 import com.scwang.smartrefresh.layout.listener.OnRefreshLoadMoreListener

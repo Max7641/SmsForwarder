@@ -1,9 +1,9 @@
-package com.idormy.sms.forwarder.core
+package top.m7641.sms.forwarder.core
 
 import android.content.Context
 import android.view.View
 import android.widget.TextView
-import com.idormy.sms.forwarder.R
+import top.m7641.sms.forwarder.R
 import com.xuexiang.xui.adapter.listview.BaseListAdapter
 import com.xuexiang.xutil.common.StringUtils
 

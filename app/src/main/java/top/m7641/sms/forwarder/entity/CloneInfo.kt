@@ -1,10 +1,10 @@
-package com.idormy.sms.forwarder.entity
+package top.m7641.sms.forwarder.entity
 
 import com.google.gson.annotations.SerializedName
-import com.idormy.sms.forwarder.database.entity.Frpc
-import com.idormy.sms.forwarder.database.entity.Rule
-import com.idormy.sms.forwarder.database.entity.Sender
-import com.idormy.sms.forwarder.database.entity.Task
+import top.m7641.sms.forwarder.database.entity.Frpc
+import top.m7641.sms.forwarder.database.entity.Rule
+import top.m7641.sms.forwarder.database.entity.Sender
+import top.m7641.sms.forwarder.database.entity.Task
 import java.io.Serializable
 
 data class CloneInfo(

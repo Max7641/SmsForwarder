@@ -1,6 +1,6 @@
-package com.idormy.sms.forwarder.entity
+package top.m7641.sms.forwarder.entity
 
-import com.idormy.sms.forwarder.R
+import top.m7641.sms.forwarder.R
 import com.xuexiang.xutil.resource.ResUtils.getString
 import java.io.Serializable
 

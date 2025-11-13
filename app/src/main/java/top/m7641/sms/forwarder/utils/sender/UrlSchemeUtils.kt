@@ -1,15 +1,15 @@
-package com.idormy.sms.forwarder.utils.sender
+package top.m7641.sms.forwarder.utils.sender
 
 import android.annotation.SuppressLint
 import android.content.Intent
 import android.net.Uri
-import com.idormy.sms.forwarder.database.entity.Rule
-import com.idormy.sms.forwarder.entity.MsgInfo
-import com.idormy.sms.forwarder.entity.setting.UrlSchemeSetting
-import com.idormy.sms.forwarder.utils.AppUtils
-import com.idormy.sms.forwarder.utils.Log
-import com.idormy.sms.forwarder.utils.SendUtils
-import com.idormy.sms.forwarder.utils.SettingUtils
+import top.m7641.sms.forwarder.database.entity.Rule
+import top.m7641.sms.forwarder.entity.MsgInfo
+import top.m7641.sms.forwarder.entity.setting.UrlSchemeSetting
+import top.m7641.sms.forwarder.utils.AppUtils
+import top.m7641.sms.forwarder.utils.Log
+import top.m7641.sms.forwarder.utils.SendUtils
+import top.m7641.sms.forwarder.utils.SettingUtils
 import com.xuexiang.xutil.XUtil
 import java.net.URLEncoder
 import java.text.SimpleDateFormat

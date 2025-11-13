@@ -1,7 +1,7 @@
-package com.idormy.sms.forwarder.utils
+package top.m7641.sms.forwarder.utils
 
-import com.idormy.sms.forwarder.R
-import com.idormy.sms.forwarder.entity.MsgInfo
+import top.m7641.sms.forwarder.R
+import top.m7641.sms.forwarder.entity.MsgInfo
 import com.xuexiang.xutil.resource.ResUtils.getString
 import java.util.*
 

@@ -1,13 +1,13 @@
-package com.idormy.sms.forwarder.server.controller
+package top.m7641.sms.forwarder.server.controller
 
 import android.content.Intent
 import android.content.IntentFilter
-import com.idormy.sms.forwarder.utils.Log
-import com.idormy.sms.forwarder.App
-import com.idormy.sms.forwarder.entity.BatteryInfo
-import com.idormy.sms.forwarder.server.model.BaseRequest
-import com.idormy.sms.forwarder.server.model.EmptyData
-import com.idormy.sms.forwarder.utils.BatteryUtils
+import top.m7641.sms.forwarder.utils.Log
+import top.m7641.sms.forwarder.App
+import top.m7641.sms.forwarder.entity.BatteryInfo
+import top.m7641.sms.forwarder.server.model.BaseRequest
+import top.m7641.sms.forwarder.server.model.EmptyData
+import top.m7641.sms.forwarder.utils.BatteryUtils
 import com.yanzhenjie.andserver.annotation.*
 
 @Suppress("PrivatePropertyName")

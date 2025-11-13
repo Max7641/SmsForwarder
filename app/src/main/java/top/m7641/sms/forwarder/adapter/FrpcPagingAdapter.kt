@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.adapter
+package top.m7641.sms.forwarder.adapter
 
 import android.annotation.SuppressLint
 import android.os.Build
@@ -8,11 +8,11 @@ import android.view.ViewGroup
 import androidx.paging.PagingDataAdapter
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.idormy.sms.forwarder.App
-import com.idormy.sms.forwarder.R
-import com.idormy.sms.forwarder.adapter.FrpcPagingAdapter.MyViewHolder
-import com.idormy.sms.forwarder.database.entity.Frpc
-import com.idormy.sms.forwarder.databinding.AdapterFrpcsCardViewListItemBinding
+import top.m7641.sms.forwarder.App
+import top.m7641.sms.forwarder.R
+import top.m7641.sms.forwarder.adapter.FrpcPagingAdapter.MyViewHolder
+import top.m7641.sms.forwarder.database.entity.Frpc
+import top.m7641.sms.forwarder.databinding.AdapterFrpcsCardViewListItemBinding
 import com.xuexiang.xutil.resource.ResUtils.getColors
 import frpclib.Frpclib
 

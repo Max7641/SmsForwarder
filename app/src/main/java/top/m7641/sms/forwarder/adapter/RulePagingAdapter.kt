@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.adapter
+package top.m7641.sms.forwarder.adapter
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
@@ -10,11 +10,11 @@ import android.widget.TextView
 import androidx.paging.PagingDataAdapter
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.idormy.sms.forwarder.App
-import com.idormy.sms.forwarder.R
-import com.idormy.sms.forwarder.adapter.RulePagingAdapter.MyViewHolder
-import com.idormy.sms.forwarder.database.entity.Rule
-import com.idormy.sms.forwarder.databinding.AdapterRulesCardViewListItemBinding
+import top.m7641.sms.forwarder.App
+import top.m7641.sms.forwarder.R
+import top.m7641.sms.forwarder.adapter.RulePagingAdapter.MyViewHolder
+import top.m7641.sms.forwarder.database.entity.Rule
+import top.m7641.sms.forwarder.databinding.AdapterRulesCardViewListItemBinding
 
 @Suppress("EmptyMethod")
 class RulePagingAdapter(private val itemClickListener: OnItemClickListener) : PagingDataAdapter<Rule, MyViewHolder>(diffCallback) {

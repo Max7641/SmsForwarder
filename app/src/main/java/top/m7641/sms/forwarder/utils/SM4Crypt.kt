@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.utils
+package top.m7641.sms.forwarder.utils
 
 import org.bouncycastle.jce.provider.BouncyCastleProvider
 import java.security.SecureRandom

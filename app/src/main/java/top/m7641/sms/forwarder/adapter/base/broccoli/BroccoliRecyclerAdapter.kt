@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.adapter.base.broccoli
+package top.m7641.sms.forwarder.adapter.base.broccoli
 
 import android.view.View
 import com.xuexiang.xui.adapter.recyclerview.BaseRecyclerAdapter

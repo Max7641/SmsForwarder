@@ -1,8 +1,8 @@
-package com.idormy.sms.forwarder.database.viewmodel
+package top.m7641.sms.forwarder.database.viewmodel
 
 import androidx.lifecycle.ViewModel
-import com.idormy.sms.forwarder.database.dao.LogsDao
-import com.idormy.sms.forwarder.database.ext.ioThread
+import top.m7641.sms.forwarder.database.dao.LogsDao
+import top.m7641.sms.forwarder.database.ext.ioThread
 
 class LogsViewModel(private val dao: LogsDao) : ViewModel() {
     //private var type: String = "sms"

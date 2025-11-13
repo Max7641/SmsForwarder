@@ -1,11 +1,11 @@
-package com.idormy.sms.forwarder.receiver
+package top.m7641.sms.forwarder.receiver
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.telephony.TelephonyManager
-import com.idormy.sms.forwarder.utils.Log
-import com.idormy.sms.forwarder.utils.SettingUtils
+import top.m7641.sms.forwarder.utils.Log
+import top.m7641.sms.forwarder.utils.SettingUtils
 import java.util.Date
 
 @Suppress("DEPRECATION")

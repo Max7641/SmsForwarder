@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.fragment
+package top.m7641.sms.forwarder.fragment
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -11,20 +11,20 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.google.gson.Gson
-import com.idormy.sms.forwarder.App
-import com.idormy.sms.forwarder.R
-import com.idormy.sms.forwarder.adapter.TaskSettingAdapter
-import com.idormy.sms.forwarder.adapter.WidgetItemAdapter
-import com.idormy.sms.forwarder.adapter.base.ItemMoveCallback
-import com.idormy.sms.forwarder.core.BaseFragment
-import com.idormy.sms.forwarder.core.Core
-import com.idormy.sms.forwarder.database.entity.Task
-import com.idormy.sms.forwarder.databinding.FragmentTasksEditBinding
-import com.idormy.sms.forwarder.entity.TaskSetting
-import com.idormy.sms.forwarder.entity.condition.CronSetting
-import com.idormy.sms.forwarder.service.LocationService
-import com.idormy.sms.forwarder.utils.*
-import com.idormy.sms.forwarder.utils.task.CronJobScheduler
+import top.m7641.sms.forwarder.App
+import top.m7641.sms.forwarder.R
+import top.m7641.sms.forwarder.adapter.TaskSettingAdapter
+import top.m7641.sms.forwarder.adapter.WidgetItemAdapter
+import top.m7641.sms.forwarder.adapter.base.ItemMoveCallback
+import top.m7641.sms.forwarder.core.BaseFragment
+import top.m7641.sms.forwarder.core.Core
+import top.m7641.sms.forwarder.database.entity.Task
+import top.m7641.sms.forwarder.databinding.FragmentTasksEditBinding
+import top.m7641.sms.forwarder.entity.TaskSetting
+import top.m7641.sms.forwarder.entity.condition.CronSetting
+import top.m7641.sms.forwarder.service.LocationService
+import top.m7641.sms.forwarder.utils.*
+import top.m7641.sms.forwarder.utils.task.CronJobScheduler
 import com.xuexiang.xaop.annotation.SingleClick
 import com.xuexiang.xpage.annotation.Page
 import com.xuexiang.xpage.base.XPageFragment
@@ -81,84 +81,84 @@ class TasksEditFragment : BaseFragment<FragmentTasksEditBinding?>(), View.OnClic
     private var TASK_CONDITION_FRAGMENT_LIST = listOf(
         PageInfo(
             getString(R.string.task_cron),
-            "com.idormy.sms.forwarder.fragment.condition.CronFragment",
+            "top.m7641.sms.forwarder.fragment.condition.CronFragment",
             "",
             CoreAnim.slide,
             R.drawable.auto_task_icon_custom_time,
         ),
         PageInfo(
             getString(R.string.task_to_address),
-            "com.idormy.sms.forwarder.fragment.condition.ToAddressFragment",
+            "top.m7641.sms.forwarder.fragment.condition.ToAddressFragment",
             "",
             CoreAnim.slide,
             R.drawable.auto_task_icon_to_address,
         ),
         PageInfo(
             getString(R.string.task_leave_address),
-            "com.idormy.sms.forwarder.fragment.condition.LeaveAddressFragment",
+            "top.m7641.sms.forwarder.fragment.condition.LeaveAddressFragment",
             "",
             CoreAnim.slide,
             R.drawable.auto_task_icon_leave_address,
         ),
         PageInfo(
             getString(R.string.task_network),
-            "com.idormy.sms.forwarder.fragment.condition.NetworkFragment",
+            "top.m7641.sms.forwarder.fragment.condition.NetworkFragment",
             "",
             CoreAnim.slide,
             R.drawable.auto_task_icon_network
         ),
         PageInfo(
             getString(R.string.task_sim),
-            "com.idormy.sms.forwarder.fragment.condition.SimFragment",
+            "top.m7641.sms.forwarder.fragment.condition.SimFragment",
             "",
             CoreAnim.slide,
             R.drawable.auto_task_icon_sim
         ),
         PageInfo(
             getString(R.string.task_battery),
-            "com.idormy.sms.forwarder.fragment.condition.BatteryFragment",
+            "top.m7641.sms.forwarder.fragment.condition.BatteryFragment",
             "",
             CoreAnim.slide,
             R.drawable.auto_task_icon_battery
         ),
         PageInfo(
             getString(R.string.task_charge),
-            "com.idormy.sms.forwarder.fragment.condition.ChargeFragment",
+            "top.m7641.sms.forwarder.fragment.condition.ChargeFragment",
             "",
             CoreAnim.slide,
             R.drawable.auto_task_icon_charge
         ),
         PageInfo(
             getString(R.string.task_lock_screen),
-            "com.idormy.sms.forwarder.fragment.condition.LockScreenFragment",
+            "top.m7641.sms.forwarder.fragment.condition.LockScreenFragment",
             "",
             CoreAnim.slide,
             R.drawable.auto_task_icon_lock_screen
         ),
         PageInfo(
             getString(R.string.task_sms),
-            "com.idormy.sms.forwarder.fragment.condition.MsgFragment",
+            "top.m7641.sms.forwarder.fragment.condition.MsgFragment",
             "sms",
             CoreAnim.slide,
             R.drawable.auto_task_icon_sms
         ),
         PageInfo(
             getString(R.string.task_call),
-            "com.idormy.sms.forwarder.fragment.condition.MsgFragment",
+            "top.m7641.sms.forwarder.fragment.condition.MsgFragment",
             "call",
             CoreAnim.slide,
             R.drawable.auto_task_icon_incall
         ),
         PageInfo(
             getString(R.string.task_app),
-            "com.idormy.sms.forwarder.fragment.condition.MsgFragment",
+            "top.m7641.sms.forwarder.fragment.condition.MsgFragment",
             "app",
             CoreAnim.slide,
             R.drawable.auto_task_icon_start_activity
         ),
         PageInfo(
             getString(R.string.task_bluetooth),
-            "com.idormy.sms.forwarder.fragment.condition.BluetoothFragment",
+            "top.m7641.sms.forwarder.fragment.condition.BluetoothFragment",
             "",
             CoreAnim.slide,
             R.drawable.auto_task_icon_bluetooth
@@ -168,77 +168,77 @@ class TasksEditFragment : BaseFragment<FragmentTasksEditBinding?>(), View.OnClic
     private var TASK_ACTION_FRAGMENT_LIST = listOf(
         PageInfo(
             getString(R.string.task_sendsms),
-            "com.idormy.sms.forwarder.fragment.action.SendSmsFragment",
+            "top.m7641.sms.forwarder.fragment.action.SendSmsFragment",
             "",
             CoreAnim.slide,
             R.drawable.auto_task_icon_sms
         ),
         PageInfo(
             getString(R.string.task_notification),
-            "com.idormy.sms.forwarder.fragment.action.NotificationFragment",
+            "top.m7641.sms.forwarder.fragment.action.NotificationFragment",
             "",
             CoreAnim.slide,
             R.drawable.auto_task_icon_notification,
         ),
         PageInfo(
             getString(R.string.task_cleaner),
-            "com.idormy.sms.forwarder.fragment.action.CleanerFragment",
+            "top.m7641.sms.forwarder.fragment.action.CleanerFragment",
             "",
             CoreAnim.slide,
             R.drawable.auto_task_icon_cleaner
         ),
         PageInfo(
             getString(R.string.task_settings),
-            "com.idormy.sms.forwarder.fragment.action.SettingsFragment",
+            "top.m7641.sms.forwarder.fragment.action.SettingsFragment",
             "",
             CoreAnim.slide,
             R.drawable.auto_task_icon_settings
         ),
         PageInfo(
             getString(R.string.task_frpc),
-            "com.idormy.sms.forwarder.fragment.action.FrpcFragment",
+            "top.m7641.sms.forwarder.fragment.action.FrpcFragment",
             "",
             CoreAnim.slide,
             R.drawable.auto_task_icon_frpc
         ),
         PageInfo(
             getString(R.string.task_http_server),
-            "com.idormy.sms.forwarder.fragment.action.HttpServerFragment",
+            "top.m7641.sms.forwarder.fragment.action.HttpServerFragment",
             "",
             CoreAnim.slide,
             R.drawable.auto_task_icon_http_server
         ),
         PageInfo(
             getString(R.string.task_rule),
-            "com.idormy.sms.forwarder.fragment.action.RuleFragment",
+            "top.m7641.sms.forwarder.fragment.action.RuleFragment",
             "",
             CoreAnim.slide,
             R.drawable.auto_task_icon_rule
         ),
         PageInfo(
             getString(R.string.task_sender),
-            "com.idormy.sms.forwarder.fragment.action.SenderFragment",
+            "top.m7641.sms.forwarder.fragment.action.SenderFragment",
             "",
             CoreAnim.slide,
             R.drawable.auto_task_icon_sender
         ),
         PageInfo(
             getString(R.string.task_alarm),
-            "com.idormy.sms.forwarder.fragment.action.AlarmFragment",
+            "top.m7641.sms.forwarder.fragment.action.AlarmFragment",
             "",
             CoreAnim.slide,
             R.drawable.auto_task_icon_alarm
         ),
         PageInfo(
             getString(R.string.task_resend),
-            "com.idormy.sms.forwarder.fragment.action.ResendFragment",
+            "top.m7641.sms.forwarder.fragment.action.ResendFragment",
             "",
             CoreAnim.slide,
             R.drawable.auto_task_icon_resend
         ),
         PageInfo(
             getString(R.string.task_task),
-            "com.idormy.sms.forwarder.fragment.action.TaskActionFragment",
+            "top.m7641.sms.forwarder.fragment.action.TaskActionFragment",
             "",
             CoreAnim.slide,
             R.drawable.auto_task_icon_task

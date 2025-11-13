@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.utils
+package top.m7641.sms.forwarder.utils
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -10,7 +10,7 @@ import android.os.Build
 import android.os.PowerManager
 import android.provider.Settings
 import androidx.annotation.RequiresApi
-import com.idormy.sms.forwarder.R
+import top.m7641.sms.forwarder.R
 
 @Suppress("DEPRECATION")
 class KeepAliveUtils private constructor() {

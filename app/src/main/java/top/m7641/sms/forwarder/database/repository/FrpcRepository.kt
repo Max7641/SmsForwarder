@@ -1,9 +1,9 @@
-package com.idormy.sms.forwarder.database.repository
+package top.m7641.sms.forwarder.database.repository
 
 import androidx.annotation.WorkerThread
 import androidx.sqlite.db.SimpleSQLiteQuery
-import com.idormy.sms.forwarder.database.dao.FrpcDao
-import com.idormy.sms.forwarder.database.entity.Frpc
+import top.m7641.sms.forwarder.database.dao.FrpcDao
+import top.m7641.sms.forwarder.database.entity.Frpc
 import io.reactivex.Single
 
 class FrpcRepository(private val frpcDao: FrpcDao) {

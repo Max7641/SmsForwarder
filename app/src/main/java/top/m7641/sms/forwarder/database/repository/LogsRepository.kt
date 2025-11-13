@@ -1,9 +1,9 @@
-package com.idormy.sms.forwarder.database.repository
+package top.m7641.sms.forwarder.database.repository
 
 import androidx.annotation.WorkerThread
 import androidx.sqlite.db.SimpleSQLiteQuery
-import com.idormy.sms.forwarder.database.dao.LogsDao
-import com.idormy.sms.forwarder.database.entity.Logs
+import top.m7641.sms.forwarder.database.dao.LogsDao
+import top.m7641.sms.forwarder.database.entity.Logs
 
 class LogsRepository(private val logsDao: LogsDao) {
 

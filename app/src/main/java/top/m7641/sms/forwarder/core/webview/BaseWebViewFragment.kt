@@ -1,8 +1,8 @@
-package com.idormy.sms.forwarder.core.webview
+package top.m7641.sms.forwarder.core.webview
 
 import android.view.KeyEvent
 import androidx.viewbinding.ViewBinding
-import com.idormy.sms.forwarder.core.BaseFragment
+import top.m7641.sms.forwarder.core.BaseFragment
 import com.just.agentweb.core.AgentWeb
 
 /**

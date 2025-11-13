@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.adapter.base.delegate
+package top.m7641.sms.forwarder.adapter.base.delegate
 
 import android.view.ViewGroup
 import com.xuexiang.xui.adapter.recyclerview.RecyclerViewHolder

@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.workers
+package top.m7641.sms.forwarder.workers
 
 import android.content.Context
 import android.net.wifi.WifiManager
@@ -8,18 +8,18 @@ import androidx.work.OneTimeWorkRequestBuilder
 import androidx.work.WorkManager
 import androidx.work.WorkerParameters
 import com.google.gson.Gson
-import com.idormy.sms.forwarder.App
-import com.idormy.sms.forwarder.R
-import com.idormy.sms.forwarder.core.Core
-import com.idormy.sms.forwarder.entity.MsgInfo
-import com.idormy.sms.forwarder.entity.TaskSetting
-import com.idormy.sms.forwarder.entity.condition.NetworkSetting
-import com.idormy.sms.forwarder.utils.CommonUtils
-import com.idormy.sms.forwarder.utils.Log
-import com.idormy.sms.forwarder.utils.PhoneUtils
-import com.idormy.sms.forwarder.utils.TaskWorker
-import com.idormy.sms.forwarder.utils.task.ConditionUtils
-import com.idormy.sms.forwarder.utils.task.TaskUtils
+import top.m7641.sms.forwarder.App
+import top.m7641.sms.forwarder.R
+import top.m7641.sms.forwarder.core.Core
+import top.m7641.sms.forwarder.entity.MsgInfo
+import top.m7641.sms.forwarder.entity.TaskSetting
+import top.m7641.sms.forwarder.entity.condition.NetworkSetting
+import top.m7641.sms.forwarder.utils.CommonUtils
+import top.m7641.sms.forwarder.utils.Log
+import top.m7641.sms.forwarder.utils.PhoneUtils
+import top.m7641.sms.forwarder.utils.TaskWorker
+import top.m7641.sms.forwarder.utils.task.ConditionUtils
+import top.m7641.sms.forwarder.utils.task.TaskUtils
 import com.xuexiang.xutil.app.ServiceUtils
 import com.xuexiang.xutil.resource.ResUtils.getString
 import java.net.HttpURLConnection
@@ -124,7 +124,7 @@ class NetworkWorker(context: Context, params: WorkerParameters) : CoroutineWorke
                     }
                 }
 
-                val isHttpServerRunning = ServiceUtils.isServiceRunning("com.idormy.sms.forwarder.service.HttpServerService")
+                val isHttpServerRunning = ServiceUtils.isServiceRunning("top.m7641.sms.forwarder.service.HttpServerService")
                 if (ipv4Pattern.matches(ipv4)) {
                     msg.append(getString(R.string.ipv4)).append(": ").append(ipv4).append("\n")
                     if (isHttpServerRunning) {

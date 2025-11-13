@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.core.http.entity
+package top.m7641.sms.forwarder.core.http.entity
 
 import androidx.annotation.Keep
 

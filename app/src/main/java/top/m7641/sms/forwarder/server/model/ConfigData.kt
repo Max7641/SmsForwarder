@@ -1,7 +1,7 @@
-package com.idormy.sms.forwarder.server.model
+package top.m7641.sms.forwarder.server.model
 
 import com.google.gson.annotations.SerializedName
-import com.idormy.sms.forwarder.entity.SimInfo
+import top.m7641.sms.forwarder.entity.SimInfo
 import java.io.Serializable
 
 data class ConfigData(

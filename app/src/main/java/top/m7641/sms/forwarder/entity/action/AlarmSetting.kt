@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.entity.action
+package top.m7641.sms.forwarder.entity.action
 
 import java.io.Serializable
 

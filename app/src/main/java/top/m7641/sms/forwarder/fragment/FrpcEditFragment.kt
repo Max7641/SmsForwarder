@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.fragment
+package top.m7641.sms.forwarder.fragment
 
 import android.annotation.SuppressLint
 import android.graphics.Color
@@ -7,15 +7,15 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.viewModels
-import com.idormy.sms.forwarder.R
-import com.idormy.sms.forwarder.core.BaseFragment
-import com.idormy.sms.forwarder.database.entity.Frpc
-import com.idormy.sms.forwarder.database.viewmodel.BaseViewModelFactory
-import com.idormy.sms.forwarder.database.viewmodel.FrpcViewModel
-import com.idormy.sms.forwarder.databinding.FragmentFrpcEditBinding
-import com.idormy.sms.forwarder.utils.EVENT_FRPC_UPDATE_CONFIG
-import com.idormy.sms.forwarder.utils.INTENT_FRPC_EDIT_FILE
-import com.idormy.sms.forwarder.utils.XToastUtils
+import top.m7641.sms.forwarder.R
+import top.m7641.sms.forwarder.core.BaseFragment
+import top.m7641.sms.forwarder.database.entity.Frpc
+import top.m7641.sms.forwarder.database.viewmodel.BaseViewModelFactory
+import top.m7641.sms.forwarder.database.viewmodel.FrpcViewModel
+import top.m7641.sms.forwarder.databinding.FragmentFrpcEditBinding
+import top.m7641.sms.forwarder.utils.EVENT_FRPC_UPDATE_CONFIG
+import top.m7641.sms.forwarder.utils.INTENT_FRPC_EDIT_FILE
+import top.m7641.sms.forwarder.utils.XToastUtils
 import com.jeremyliao.liveeventbus.LiveEventBus
 import com.xuexiang.xaop.annotation.SingleClick
 import com.xuexiang.xpage.annotation.Page

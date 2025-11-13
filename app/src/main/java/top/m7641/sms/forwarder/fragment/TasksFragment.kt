@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.fragment
+package top.m7641.sms.forwarder.fragment
 
 import android.view.LayoutInflater
 import android.view.View
@@ -7,17 +7,17 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.RecyclerView.RecycledViewPool
 import com.alibaba.android.vlayout.VirtualLayoutManager
-import com.idormy.sms.forwarder.R
-import com.idormy.sms.forwarder.adapter.TaskPagingAdapter
-import com.idormy.sms.forwarder.core.BaseFragment
-import com.idormy.sms.forwarder.database.entity.Task
-import com.idormy.sms.forwarder.database.viewmodel.BaseViewModelFactory
-import com.idormy.sms.forwarder.database.viewmodel.TaskViewModel
-import com.idormy.sms.forwarder.databinding.FragmentTasksBinding
-import com.idormy.sms.forwarder.utils.KEY_TASK_CLONE
-import com.idormy.sms.forwarder.utils.KEY_TASK_ID
-import com.idormy.sms.forwarder.utils.Log
-import com.idormy.sms.forwarder.utils.XToastUtils
+import top.m7641.sms.forwarder.R
+import top.m7641.sms.forwarder.adapter.TaskPagingAdapter
+import top.m7641.sms.forwarder.core.BaseFragment
+import top.m7641.sms.forwarder.database.entity.Task
+import top.m7641.sms.forwarder.database.viewmodel.BaseViewModelFactory
+import top.m7641.sms.forwarder.database.viewmodel.TaskViewModel
+import top.m7641.sms.forwarder.databinding.FragmentTasksBinding
+import top.m7641.sms.forwarder.utils.KEY_TASK_CLONE
+import top.m7641.sms.forwarder.utils.KEY_TASK_ID
+import top.m7641.sms.forwarder.utils.Log
+import top.m7641.sms.forwarder.utils.XToastUtils
 import com.scwang.smartrefresh.layout.api.RefreshLayout
 import com.xuexiang.xaop.annotation.SingleClick
 import com.xuexiang.xpage.annotation.Page

@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.core
+package top.m7641.sms.forwarder.core
 
 import android.app.Activity
 import android.content.Context
@@ -9,8 +9,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.viewbinding.ViewBinding
-import com.idormy.sms.forwarder.App
-import com.idormy.sms.forwarder.core.http.loader.ProgressLoader
+import top.m7641.sms.forwarder.App
+import top.m7641.sms.forwarder.core.http.loader.ProgressLoader
 import com.umeng.analytics.MobclickAgent
 import com.xuexiang.xhttp2.subsciber.impl.IProgressLoader
 import com.xuexiang.xpage.base.XPageActivity

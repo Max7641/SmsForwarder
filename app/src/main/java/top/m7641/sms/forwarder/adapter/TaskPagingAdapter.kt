@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.adapter
+package top.m7641.sms.forwarder.adapter
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
@@ -10,12 +10,12 @@ import androidx.paging.PagingDataAdapter
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.google.gson.Gson
-import com.idormy.sms.forwarder.App
-import com.idormy.sms.forwarder.R
-import com.idormy.sms.forwarder.adapter.TaskPagingAdapter.MyViewHolder
-import com.idormy.sms.forwarder.database.entity.Task
-import com.idormy.sms.forwarder.databinding.AdapterTasksCardViewListItemBinding
-import com.idormy.sms.forwarder.entity.TaskSetting
+import top.m7641.sms.forwarder.App
+import top.m7641.sms.forwarder.R
+import top.m7641.sms.forwarder.adapter.TaskPagingAdapter.MyViewHolder
+import top.m7641.sms.forwarder.database.entity.Task
+import top.m7641.sms.forwarder.databinding.AdapterTasksCardViewListItemBinding
+import top.m7641.sms.forwarder.entity.TaskSetting
 import com.xuexiang.xutil.data.DateUtils
 
 @Suppress("EmptyMethod")

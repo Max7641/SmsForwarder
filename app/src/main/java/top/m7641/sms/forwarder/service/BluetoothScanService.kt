@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.service
+package top.m7641.sms.forwarder.service
 
 import android.Manifest
 import android.app.Service
@@ -7,11 +7,11 @@ import android.content.Intent
 import android.content.pm.PackageManager
 import android.os.IBinder
 import androidx.core.app.ActivityCompat
-import com.idormy.sms.forwarder.utils.ACTION_RESTART
-import com.idormy.sms.forwarder.utils.ACTION_START
-import com.idormy.sms.forwarder.utils.ACTION_STOP
-import com.idormy.sms.forwarder.utils.Log
-import com.idormy.sms.forwarder.utils.task.TaskUtils
+import top.m7641.sms.forwarder.utils.ACTION_RESTART
+import top.m7641.sms.forwarder.utils.ACTION_START
+import top.m7641.sms.forwarder.utils.ACTION_STOP
+import top.m7641.sms.forwarder.utils.Log
+import top.m7641.sms.forwarder.utils.task.TaskUtils
 
 @Suppress("PrivatePropertyName", "DEPRECATION")
 class BluetoothScanService : Service() {

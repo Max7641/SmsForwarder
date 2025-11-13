@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.utils
+package top.m7641.sms.forwarder.utils
 
 object Worker {
     const val SEND_MSG_INFO = "send_msg_info"
@@ -34,7 +34,7 @@ const val IS_AGREE_PRIVACY_KEY = "is_agree_privacy_key"
 
 //数据库
 const val DATABASE_NAME = "sms_forwarder.db"
-const val PACKAGE_NAME = "com.idormy.sms.forwarder"
+const val PACKAGE_NAME = "top.m7641.sms.forwarder"
 
 //通用设置
 const val SP_ENABLE_SMS = "enable_sms"
@@ -150,7 +150,7 @@ const val TYPE_SOCKET = 15
 
 //前台服务
 const val FRONT_NOTIFY_ID = 0x1010
-const val FRONT_CHANNEL_ID = "com.idormy.sms.forwarder"
+const val FRONT_CHANNEL_ID = "top.m7641.sms.forwarder"
 const val FRONT_CHANNEL_NAME = "SmsForwarder Foreground Service"
 
 //Frp内网穿透

@@ -1,6 +1,6 @@
-package com.idormy.sms.forwarder.entity.setting
+package top.m7641.sms.forwarder.entity.setting
 
-import com.idormy.sms.forwarder.R
+import top.m7641.sms.forwarder.R
 import java.io.Serializable
 
 data class FeishuSetting(

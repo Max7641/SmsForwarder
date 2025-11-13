@@ -1,8 +1,8 @@
-package com.idormy.sms.forwarder.database.repository
+package top.m7641.sms.forwarder.database.repository
 
 import androidx.annotation.WorkerThread
-import com.idormy.sms.forwarder.database.dao.MsgDao
-import com.idormy.sms.forwarder.database.entity.Msg
+import top.m7641.sms.forwarder.database.dao.MsgDao
+import top.m7641.sms.forwarder.database.entity.Msg
 
 class MsgRepository(private val msgDao: MsgDao) {
 

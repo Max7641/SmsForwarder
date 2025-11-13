@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.receiver
+package top.m7641.sms.forwarder.receiver
 
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -8,13 +8,13 @@ import androidx.work.ExistingWorkPolicy
 import androidx.work.OneTimeWorkRequestBuilder
 import androidx.work.WorkManager
 import androidx.work.workDataOf
-import com.idormy.sms.forwarder.utils.BatteryUtils
-import com.idormy.sms.forwarder.utils.Log
-import com.idormy.sms.forwarder.utils.TASK_CONDITION_BATTERY
-import com.idormy.sms.forwarder.utils.TASK_CONDITION_CHARGE
-import com.idormy.sms.forwarder.utils.TaskWorker
-import com.idormy.sms.forwarder.utils.task.TaskUtils
-import com.idormy.sms.forwarder.workers.BatteryWorker
+import top.m7641.sms.forwarder.utils.BatteryUtils
+import top.m7641.sms.forwarder.utils.Log
+import top.m7641.sms.forwarder.utils.TASK_CONDITION_BATTERY
+import top.m7641.sms.forwarder.utils.TASK_CONDITION_CHARGE
+import top.m7641.sms.forwarder.utils.TaskWorker
+import top.m7641.sms.forwarder.utils.task.TaskUtils
+import top.m7641.sms.forwarder.workers.BatteryWorker
 
 @Suppress("PrivatePropertyName")
 class BatteryReceiver : BroadcastReceiver() {

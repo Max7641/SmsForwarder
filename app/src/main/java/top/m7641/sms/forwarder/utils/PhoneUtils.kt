@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.utils
+package top.m7641.sms.forwarder.utils
 
 import android.Manifest.permission
 import android.annotation.SuppressLint
@@ -18,13 +18,13 @@ import android.telephony.TelephonyManager
 import android.text.TextUtils
 import androidx.annotation.RequiresPermission
 import androidx.core.app.ActivityCompat
-import com.idormy.sms.forwarder.App
-import com.idormy.sms.forwarder.R
-import com.idormy.sms.forwarder.core.Core
-import com.idormy.sms.forwarder.entity.CallInfo
-import com.idormy.sms.forwarder.entity.ContactInfo
-import com.idormy.sms.forwarder.entity.SimInfo
-import com.idormy.sms.forwarder.entity.SmsInfo
+import top.m7641.sms.forwarder.App
+import top.m7641.sms.forwarder.R
+import top.m7641.sms.forwarder.core.Core
+import top.m7641.sms.forwarder.entity.CallInfo
+import top.m7641.sms.forwarder.entity.ContactInfo
+import top.m7641.sms.forwarder.entity.SimInfo
+import top.m7641.sms.forwarder.entity.SmsInfo
 import com.xuexiang.xutil.XUtil
 import com.xuexiang.xutil.app.IntentUtils
 import com.xuexiang.xutil.data.DateUtils

@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.widget
+package top.m7641.sms.forwarder.widget
 
 import android.content.Context
 import android.view.View
@@ -9,10 +9,10 @@ import androidx.appcompat.widget.AppCompatCheckBox
 import com.google.gson.Gson
 import com.google.gson.JsonObject
 import com.google.gson.reflect.TypeToken
-import com.idormy.sms.forwarder.R
-import com.idormy.sms.forwarder.core.http.entity.TipInfo
-import com.idormy.sms.forwarder.utils.AppUtils
-import com.idormy.sms.forwarder.utils.SharedPreference
+import top.m7641.sms.forwarder.R
+import top.m7641.sms.forwarder.core.http.entity.TipInfo
+import top.m7641.sms.forwarder.utils.AppUtils
+import top.m7641.sms.forwarder.utils.SharedPreference
 import com.xuexiang.xaop.annotation.SingleClick
 import com.xuexiang.xhttp2.XHttp
 import com.xuexiang.xhttp2.callback.SimpleCallBack
@@ -144,7 +144,7 @@ class GuideTipsDialog(context: Context?, tips: List<TipInfo>) :
 
     companion object {
         private const val KEY_IS_IGNORE_TIPS =
-            "com.idormy.sms.forwarder.widget.key_is_ignore_tips_"
+            "top.m7641.sms.forwarder.widget.key_is_ignore_tips_"
 
         /**
          * 显示提示

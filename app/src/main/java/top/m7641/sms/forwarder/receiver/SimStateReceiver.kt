@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.receiver
+package top.m7641.sms.forwarder.receiver
 
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -7,14 +7,14 @@ import android.telephony.TelephonyManager
 import androidx.work.OneTimeWorkRequestBuilder
 import androidx.work.WorkManager
 import androidx.work.workDataOf
-import com.idormy.sms.forwarder.R
-import com.idormy.sms.forwarder.utils.DELAY_TIME_AFTER_SIM_READY
-import com.idormy.sms.forwarder.utils.Log
-import com.idormy.sms.forwarder.utils.SettingUtils
-import com.idormy.sms.forwarder.utils.TASK_CONDITION_SIM
-import com.idormy.sms.forwarder.utils.TaskWorker
-import com.idormy.sms.forwarder.utils.task.TaskUtils
-import com.idormy.sms.forwarder.workers.SimWorker
+import top.m7641.sms.forwarder.R
+import top.m7641.sms.forwarder.utils.DELAY_TIME_AFTER_SIM_READY
+import top.m7641.sms.forwarder.utils.Log
+import top.m7641.sms.forwarder.utils.SettingUtils
+import top.m7641.sms.forwarder.utils.TASK_CONDITION_SIM
+import top.m7641.sms.forwarder.utils.TaskWorker
+import top.m7641.sms.forwarder.utils.task.TaskUtils
+import top.m7641.sms.forwarder.workers.SimWorker
 import com.xuexiang.xutil.resource.ResUtils.getString
 import java.util.concurrent.TimeUnit
 

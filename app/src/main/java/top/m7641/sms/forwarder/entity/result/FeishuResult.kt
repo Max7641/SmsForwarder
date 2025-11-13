@@ -1,4 +1,4 @@
-package com.idormy.sms.forwarder.entity.result
+package top.m7641.sms.forwarder.entity.result
 
 data class FeishuResult(
     var code: Long,

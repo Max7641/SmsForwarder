@@ -1,8 +1,8 @@
-package com.idormy.sms.forwarder.utils.mail
+package top.m7641.sms.forwarder.utils.mail
 
 import android.text.Html
 import android.text.Spanned
-import com.idormy.sms.forwarder.utils.Log
+import top.m7641.sms.forwarder.utils.Log
 import com.sun.mail.util.MailSSLSocketFactory
 import jakarta.mail.Authenticator
 import jakarta.mail.PasswordAuthentication
